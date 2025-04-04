@@ -3,6 +3,7 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import React, { useEffect, useRef } from 'react'
 import gsap from "gsap";
 import ShinyText from "./ShinyText";
+import image from '.../images/kartikay.jpg'
 
 
 export default function FirstSection() {
@@ -72,7 +73,7 @@ export default function FirstSection() {
                 <div className="relative w-full lg:w-1/2 flex justify-center">
                     <div className="h-[500px] w-[400px] max-md:h-96 overflow-hidden rounded-b-full shadow-2xl">
                         <img
-                            src="src/images/Kartikay.jpg"
+                            src={image}
                             alt="Kartikay" loading="lazy" decoding="async"
                             className="avtar h-full w-full aspect-[3/4] rounded-b-full object-cover transition duration-300 hover:scale-[1.02] grayscale hover:grayscale-0"
                         />
