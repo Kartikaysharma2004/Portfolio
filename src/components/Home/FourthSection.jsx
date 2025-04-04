@@ -1,37 +1,41 @@
-import React, {useEffect} from "react";
+import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { NavLink } from "react-router-dom";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import rejouice from "/src/images/rejouice.png"
+import jswork from "/src/images/jswork.png"
+import shkw from "/src/images/shkw.png"
+
 
 const projects = [
     {
         id: 1,
         title: "Web Design",
         description: "Creating engaging modern designs",
-        image: "src/images/rejouice.png", // Replace with actual image path
+        image: rejouice, // Replace with actual image path
         link: "http://rejouiceui.vercel.app/"
     },
     {
         id: 2,
         title: "Web Development",
         description: "Building functional, logical websites",
-        image: "src/images/jswork.png",
+        image: jswork,
         link: "https://myjsworks.netlify.app/"
     },
     {
         id: 3,
         title: "Web Animations & Effects",
         description: "Enhancing UI with smooth animations and interactive elements",
-        image: "src/images/shkw.png",
+        image: shkw,
         link: "https://shkw-dev.vercel.app/"
     },
 ];
 
 export default function FeaturedWork() {
-    
+
     return (
-        
+
         <section className="work-tage py-16 px-4 md:px-12">
             <div className="max-w-6xl mx-auto">
                 <h2 className="text-5xl font-semibold mb-5">FEATURED WORK</h2>
@@ -81,10 +85,10 @@ export default function FeaturedWork() {
 
                                 {/* Second button (hover state) */}
                                 <a href={project.link} target="_blank" rel="noopener noreferrer">
-                                <button className="absolute top-0 left-0 w-full translate-y-[130%] skew-y-12 transform-gpu text-text-primary transition-transform duration-500 group-hover:translate-y-0 group-hover:skew-y-0 cursor-pointer">
-                                    View Project
-                                    <FontAwesomeIcon icon={faArrowRight} className="ml-2 w-4 h-4 -rotate-45" />
-                                </button>
+                                    <button className="absolute top-0 left-0 w-full translate-y-[130%] skew-y-12 transform-gpu text-text-primary transition-transform duration-500 group-hover:translate-y-0 group-hover:skew-y-0 cursor-pointer">
+                                        View Project
+                                        <FontAwesomeIcon icon={faArrowRight} className="ml-2 w-4 h-4 -rotate-45" />
+                                    </button>
                                 </a>
                             </a>
                         </div>

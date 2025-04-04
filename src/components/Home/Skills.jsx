@@ -1,71 +1,87 @@
+import htmlLogo from "/src/images/Logos/HTML.svg";
+import cssLogo from "/src/images/Logos/CSS.svg";
+import jsLogo from "/src/images/Logos/JavaScript.svg";
+import tailwindLogo from "/src/images/Logos/TailwindCSS.svg";
+import bootstrapLogo from "/src/images/Logos/Bootstrap.png";
+import reactLogo from "/src/images/Logos/React.js.svg";
+import reduxLogo from "/src/images/Logos/Redux.svg";
+import materialUiLogo from "/src/images/Logos/material-ui-1.svg";
+import chakraUiLogo from "/src/images/Logos/chakra-ui.webp";
+import gitLogo from "/src/images/Logos/GIT.svg";
+import gsapLogo from "/src/images/Logos/GSAP.svg";
+import netlifyLogo from "/src/images/Logos/Netlify.png";
+import vercelLogo from "/src/images/Logos/vercel.svg";
+
+
 export default function Skills() {
 
-    const skills = [{
-        id: 1,
-        name: "HTML",
-        image: "src/images/Logos/HTML.svg",
-    },
-    {
-        id: 2,
-        name: "CSS",
-        image: "src/images/Logos/CSS.svg",
-    },
-    {
-        id: 3,
-        name: "JavaScript",
-        image: "src/images/Logos/JavaScript.svg",
-    },
-    {
-        id: 4,
-        name: "Tailwind CSS",
-        image: "src/images/Logos/TailwindCSS.svg",
-    },
-    {
-        id: 5,
-        name: "Bootstrap",
-        image: "src/images/Logos/Bootstrap.png",
-    },
-    {
-        id: 6,
-        name: "React",
-        image: "src/images/Logos/React.js.svg",
-    },
-    {
-        id: 7,
-        name: "Redux",
-        image: "src/images/Logos/Redux.svg",
-    },
-    {
-        id: 8,
-        name: "Material UI",
-        image: "src/images/Logos/material-ui-1.svg",
-    },
-    {
-        id: 9,
-        name: "Chakra UI",
-        image: "src/images/Logos/chakra-ui.webp",
-    },
-    {
-        id: 10,
-        name: "Git",
-        image: "src/images/Logos/GIT.svg",
-    },
-    {
-        id: 11,
-        name: "GSAP",
-        image: "src/images/Logos/GSAP.svg",
-    },
-    {
-        id: 12,
-        name: "Netlify",
-        image: "src/images/Logos/Netlify.png",
-    },
-    {
-        id: 13,
-        name: "Vercel",
-        image: "src/images/Logos/vercel.svg",
-    },
-    ]
+    const skills = [
+        {
+            id: 1,
+            name: "HTML",
+            image: htmlLogo,
+        },
+        {
+            id: 2,
+            name: "CSS",
+            image: cssLogo,
+        },
+        {
+            id: 3,
+            name: "JavaScript",
+            image: jsLogo,
+        },
+        {
+            id: 4,
+            name: "Tailwind CSS",
+            image: tailwindLogo,
+        },
+        {
+            id: 5,
+            name: "Bootstrap",
+            image: bootstrapLogo,
+        },
+        {
+            id: 6,
+            name: "React",
+            image: reactLogo,
+        },
+        {
+            id: 7,
+            name: "Redux",
+            image: reduxLogo,
+        },
+        {
+            id: 8,
+            name: "Material UI",
+            image: materialUiLogo,
+        },
+        {
+            id: 9,
+            name: "Chakra UI",
+            image: chakraUiLogo,
+        },
+        {
+            id: 10,
+            name: "Git",
+            image: gitLogo,
+        },
+        {
+            id: 11,
+            name: "GSAP",
+            image: gsapLogo,
+        },
+        {
+            id: 12,
+            name: "Netlify",
+            image: netlifyLogo,
+        },
+        {
+            id: 13,
+            name: "Vercel",
+            image: vercelLogo,
+        },
+    ];
 
     return (
 

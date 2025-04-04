@@ -3,11 +3,9 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import React, { useEffect, useRef } from 'react'
 import gsap from "gsap";
 import ShinyText from "./ShinyText";
-import image from '.../images/kartikay.jpg'
-
+import image from "/src/images/Kartikay.jpg"
 
 export default function FirstSection() {
-
 
     const textRef = useRef();
     const homeRef = useRef();
