@@ -6,7 +6,7 @@ import bootstrapLogo from "/src/images/Logos/Bootstrap.png";
 import reactLogo from "/src/images/Logos/React.js.svg";
 import reduxLogo from "/src/images/Logos/Redux.svg";
 import materialUiLogo from "/src/images/Logos/material-ui-1.svg";
-import chakraUiLogo from "/src/images/Logos/chakra-ui.webp";
+// import chakraUiLogo from "/src/images/Logos/chakra-ui.webp";
 import gitLogo from "/src/images/Logos/GIT.svg";
 import gsapLogo from "/src/images/Logos/GSAP.svg";
 import netlifyLogo from "/src/images/Logos/Netlify.png";
@@ -56,11 +56,11 @@ export default function Skills() {
             name: "Material UI",
             image: materialUiLogo,
         },
-        {
-            id: 9,
-            name: "Chakra UI",
-            image: chakraUiLogo,
-        },
+        // {
+        //     id: 9,
+        //     name: "Chakra UI",
+        //     image: chakraUiLogo,
+        // },
         {
             id: 10,
             name: "Git",
