@@ -7,13 +7,12 @@ import rejouice from "/src/images/rejouice.png"
 import jswork from "/src/images/jswork.png"
 import shkw from "/src/images/shkw.png"
 
-
 const projects = [
     {
         id: 1,
         title: "Web Design",
         description: "Creating engaging modern designs",
-        image: rejouice, // Replace with actual image path
+        image: rejouice,
         link: "http://rejouiceui.vercel.app/"
     },
     {
@@ -94,7 +93,6 @@ export default function FeaturedWork() {
                         </div>
 
                     </div>
-
 
                 ))}
                 <div className="flex justify-center">

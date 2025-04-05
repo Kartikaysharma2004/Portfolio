@@ -10,7 +10,6 @@ export default function FirstSection() {
     const textRef = useRef();
     const homeRef = useRef();
 
-
     useEffect(() => {
         gsap.fromTo(textRef.current,
             { opacity: 0, clipPath: "inset(0% 100% 0% 0%)" },
@@ -80,8 +79,5 @@ export default function FirstSection() {
 
             </div>
         </section>
-
-
-
     );
 }

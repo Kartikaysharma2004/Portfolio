@@ -2,7 +2,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { NavLink } from "react-router-dom";
 
-
 export default function FifthSection() {
     return (
         
@@ -18,6 +17,8 @@ export default function FifthSection() {
                                 and universal visual identification tailored to the dedicated and
                                 current market.
                             </p>
+                            
+                {/* Right Side Button */}
                             <NavLink to={"/contact"}>
                                 <button className="contact-btn border p-3 text-sm border-black rounded-3xl cursor-pointer hover:bg-black hover:text-white transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 mb-10">
                                     Let's Discuss <FontAwesomeIcon icon={faArrowRight} className='mx-2 w-4 h-4 -rotate-45' />
@@ -56,8 +57,6 @@ export default function FifthSection() {
                         </p>
                     </div>
                 </div>
-
-                {/* Right Side Button Section */}
 
             </div>
         </section>

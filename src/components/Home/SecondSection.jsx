@@ -2,7 +2,6 @@ import React from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStarOfLife } from "@fortawesome/free-solid-svg-icons";
 
-
 const SecondSection = () => {
     return (
         <>
@@ -43,7 +42,6 @@ const SecondSection = () => {
                     </div>
                 </div>
             </div>
-
 
             <hr className='border-[#E2E8F0] w-full' />
         </>

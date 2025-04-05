@@ -6,12 +6,12 @@ import bootstrapLogo from "/src/images/Logos/Bootstrap.png";
 import reactLogo from "/src/images/Logos/React.js.svg";
 import reduxLogo from "/src/images/Logos/Redux.svg";
 import materialUiLogo from "/src/images/Logos/material-ui-1.svg";
-// import chakraUiLogo from "/src/images/Logos/chakra-ui.webp";
 import gitLogo from "/src/images/Logos/GIT.svg";
 import gsapLogo from "/src/images/Logos/GSAP.svg";
 import netlifyLogo from "/src/images/Logos/Netlify.png";
 import vercelLogo from "/src/images/Logos/vercel.svg";
-
+import VscodeLogo from "/src/images/Logos/vscode.ico"
+import chromeLogo from "/src/images/Logos/chrome.png"
 
 export default function Skills() {
 
@@ -56,11 +56,11 @@ export default function Skills() {
             name: "Material UI",
             image: materialUiLogo,
         },
-        // {
-        //     id: 9,
-        //     name: "Chakra UI",
-        //     image: chakraUiLogo,
-        // },
+        {
+            id: 9,
+            name: "GSAP",
+            image: gsapLogo,
+        },
         {
             id: 10,
             name: "Git",
@@ -68,18 +68,23 @@ export default function Skills() {
         },
         {
             id: 11,
-            name: "GSAP",
-            image: gsapLogo,
+            name: "VS Code",
+            image: VscodeLogo,
         },
         {
-            id: 12,
+            id: 14,
             name: "Netlify",
             image: netlifyLogo,
         },
         {
-            id: 13,
+            id: 15,
             name: "Vercel",
             image: vercelLogo,
+        },
+        {
+            id: 16,
+            name: "Chrome DevTools",
+            image: chromeLogo,
         },
     ];
 
@@ -113,7 +118,6 @@ export default function Skills() {
                     </div>
                 </div>
             </div>
-            {/* <hr className="border-[#E2E8F0] w-full" /> */}
 
         </>
 

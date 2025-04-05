@@ -11,8 +11,7 @@ const Education = () => {
 
     const textRef = useRef();
     const edtextRef = useRef();
-
-    const educationRef = useRef();
+    const achievementsRef = useRef();
 
 
     useEffect(() => {
@@ -24,7 +23,7 @@ const Education = () => {
                 duration: 2,
                 ease: "power3.out",
                 scrollTrigger: {
-                    trigger: educationRef.current,
+                    trigger: achievementsRef.current,
                     start: "top 50%",
                     toggleActions: "play none none none",
                 }
@@ -39,7 +38,7 @@ const Education = () => {
                 duration: 2,
                 ease: "power3.out",
                 scrollTrigger: {
-                    trigger: educationRef.current,
+                    trigger: achievementsRef.current,
                     start: "top 50%",
                     toggleActions: "play none none none",
                 }
@@ -56,7 +55,7 @@ const Education = () => {
     ];
 
     return (
-        <section ref={educationRef} className="w-full my-16 px-4 py-16">
+        <section ref={achievementsRef} className="w-full my-16 px-4 py-16">
 
             <div className="max-w-6xl mx-auto flex flex-col md:flex-row md:justify-between">
 

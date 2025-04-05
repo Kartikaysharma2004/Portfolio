@@ -50,7 +50,7 @@ const Page1 = () => {
       image: reactProjectsImage,
       title: "React Projects",
       description:
-        "This collection showcases a variety of JavaScript projects that I've developed to demonstrate my skills and creativity in web development.",
+        "This collection showcases a variety of projects built with React.js, demonstrating various web development techniques and concepts.",
       codeLink: "https://github.com/Kartikaysharma2004/React-Projects",
       liveLink: "https://myreactjswork.netlify.app/",
     },

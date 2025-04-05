@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from 'react'
 import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faStarOfLife,
@@ -12,9 +11,7 @@ const Education = () => {
 
   const textRef = useRef();
   const edtextRef = useRef();
-
   const educationRef = useRef();
-
 
   useEffect(() => {
     gsap.fromTo(textRef.current,

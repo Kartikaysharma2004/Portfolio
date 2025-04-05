@@ -22,7 +22,9 @@ body {
   color: white;
   transition: background-color 0.3s ease-in-out;
 }
-
+.dark .bottom {
+  background: linear-gradient(to top, black, transparent);
+}
 /* Common styles for dark mode elements */
 .dark .nav,
 .dark .togglebtn,
@@ -142,8 +144,6 @@ body {
   opacity: 0;
 }
 
-
-
 /* Mobile-specific dark mode styles */
 @media (max-width: 768px) {
   .dark .nav {
@@ -160,7 +160,8 @@ body,
 .h2 {
   font-family: "Inter-Light", sans-serif;
 }
-footer p, .page-3 {
+footer p,
+.page-3 {
   font-family: "Inter-Regular", sans-serif;
 }
 ::selection {
