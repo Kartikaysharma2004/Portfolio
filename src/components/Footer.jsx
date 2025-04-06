@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faLinkedin, faInstagram, faXTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLinkedin, faInstagram, faDev } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { NavLink } from 'react-router-dom';
 import gsap from "gsap";
@@ -100,8 +100,8 @@ const Footer = () => {
             <a href="mailto:kartikaysharmaa2004@gmail.com" className="text-gray-700 hover:text-black transition text-2xl">
               <FontAwesomeIcon icon={faEnvelope} className='text-xl' />
             </a>
-            <a href="#" className="text-gray-700 hover:text-black transition text-2xl">
-              <FontAwesomeIcon icon={faXTwitter} className='text-xl' />
+            <a href="https://dev.to/kartikaysharma2004" className="text-gray-700 hover:text-black transition text-2xl">
+            <FontAwesomeIcon icon={faDev} className= 'text-xl' />
             </a>
           </div>
         </div>

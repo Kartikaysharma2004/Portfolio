@@ -1,11 +1,11 @@
-import React, { useState,useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import gsap from "gsap";
 import {
   faGithub,
   faLinkedin,
   faInstagram,
-  faXTwitter,
+  faDev,
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
@@ -99,11 +99,8 @@ const Contact = () => {
                 >
                   <FontAwesomeIcon icon={faEnvelope} />
                 </a>
-                <a
-                  href="#"
-                  className="text-gray-700 hover:text-black transition"
-                >
-                  <FontAwesomeIcon icon={faXTwitter} />
+                <a href="https://dev.to/kartikaysharma2004" className="text-gray-700 hover:text-black transition">
+                  <FontAwesomeIcon icon={faDev} />
                 </a>
               </div>
               <iframe
