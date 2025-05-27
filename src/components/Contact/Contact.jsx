@@ -119,28 +119,39 @@ const Contact = () => {
                   method="POST"
                   className="flex flex-col gap-4"
                 >
-                  {" "}
-                  <input
-                    type="text"
-                    name="from_name"
-                    placeholder="Name"
-                    required
-                    className="px-4 py-2 text-[var(--white)] border border-[var(--white-icon-tr)] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#6A7282]"
-                  />{" "}
-                  <input
-                    type="email"
-                    name="reply_to"
-                    required
-                    placeholder="Email"
-                    className="px-4 py-2 text-[var(--white)] border border-[var(--white-icon-tr)] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#6A7282]"
-                  />{" "}
-                  <textarea
-                    name="message"
-                    placeholder="Message"
-                    required
-                    rows="6"
-                    className="px-4 py-2 text-[var(--white)] border border-[var(--white-icon-tr)] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#6A7282] resize-none"
-                  ></textarea>{" "}
+                  <div className="flex flex-col">
+                    <label htmlFor="from_name" className="text-[var(--white)] mb-1">Name</label>
+                    <input
+                      type="text"
+                      id="from_name"
+                      name="from_name"
+                      required
+                      className="px-4 py-2 text-[var(--white)] border border-[var(--white-icon-tr)] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#6A7282]"
+                    />
+                  </div>
+
+                  <div className="flex flex-col">
+                    <label htmlFor="reply_to" className="text-[var(--white)] mb-1">Email</label>
+                    <input
+                      type="email"
+                      id="reply_to"
+                      name="reply_to"
+                      required
+                      className="px-4 py-2 text-[var(--white)] border border-[var(--white-icon-tr)] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#6A7282]"
+                    />
+                  </div>
+
+                  <div className="flex flex-col">
+                    <label htmlFor="message" className="text-[var(--white)] mb-1">Message</label>
+                    <textarea
+                      id="message"
+                      name="message"
+                      required
+                      rows="6"
+                      className="px-4 py-2 text-[var(--white)] border border-[var(--white-icon-tr)] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#6A7282] resize-none"
+                    ></textarea>
+                  </div>
+
                   <button
                     type="submit"
                     className="px-4 py-2 bg-[var(--white-icon-tr)] text-[var(--white)] rounded-lg opacity-60 transition-opacity border border-[var(--white-icon-tr)] hover:opacity-100 hover:bg-[var(--white-icon-tr)] cursor-pointer"
