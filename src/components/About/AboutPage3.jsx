@@ -48,6 +48,7 @@ const Education = () => {
 
 
   const education = [
+    { degree: "Master of Computer Applications", institution: "Guru Nanak Dev University Amritsar", year: "2027" },
     { degree: "Bachelor of Computer Applications", institution: "Khalsa College Amritsar", year: "2025" },
     { degree: "Senior Secondary (12th)", institution: "Govt. SSS Boys Patti", year: "2022" },
     { degree: "Secondary (10th)", institution: "SMJ Model High School Patti", year: "2020" }
@@ -64,7 +65,7 @@ const Education = () => {
           <h3 className="text-4xl md:text-5xl mb-4 font-medium text-[var(--white)]">
             My Education
           </h3>
-          <p className="text-sm font-medium text-gray-600">Learning never exhausts the mind; it fuels innovation and growth.</p>
+          <p className="text-sm font-medium text-gray-600 pr-28 max-sm:pr-5 mb-4">Learning never tires the mind; it keeps it active and curious. It helps us grow and come up with new ideas.</p>
         </div>
 
         {/* Right Section (Education Details) */}
