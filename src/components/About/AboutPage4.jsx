@@ -47,8 +47,8 @@ const Education = () => {
     }, []);
 
 
-
     const education = [
+        { award: "Finalist (Runner-up) – Web Design Competition", institution: "Hindu College Amritsar", year: "March 2025" },
         { award: "2nd Position in LAN Gaming (Smash Karts)", institution: "Khalsa College Amritsar", year: "March 2025" },
         { award: "Tech Fest 2023 – Products Coordinator", institution: "Khalsa College Amritsar", year: "February 2023" },
         { award: "Recognized by School Principal for Inspiring Thoughts", institution: "Govt. SSS Boys Patti", year: "April 2022" }
