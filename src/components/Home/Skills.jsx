@@ -13,6 +13,7 @@ import vercelLogo from "/src/images/Logos/vercel.svg";
 import VscodeLogo from "/src/images/Logos/vscode.ico"
 import chromeLogo from "/src/images/Logos/chrome.png"
 import LenisLogo from "/src/images/Logos/lenis.ico"
+import NextjsLogo from "/src/images/Logos/next-js.webp"
 
 export default function Skills() {
 
@@ -44,7 +45,7 @@ export default function Skills() {
         },
         {
             id: 6,
-            name: "React",
+            name: "React.js",
             image: reactLogo,
         },
         {
@@ -54,42 +55,48 @@ export default function Skills() {
         },
         {
             id: 8,
+            name: "Next.js",
+            image: NextjsLogo,
+        },
+        
+        {
+            id: 9,
             name: "Material UI",
             image: materialUiLogo,
         },
         {
-            id: 9,
+            id: 10,
             name: "GSAP",
             image: gsapLogo,
         },
         {
-            id: 10,
+            id: 11,
             name: "Lenis",
             image: LenisLogo,
         },
         
         {
-            id: 11,
+            id: 12,
             name: "Git",
             image: gitLogo,
         },
         {
-            id: 12,
+            id: 13,
             name: "VS Code",
             image: VscodeLogo,
         },
         {
-            id: 13,
+            id: 14,
             name: "Netlify",
             image: netlifyLogo,
         },
         {
-            id: 14,
+            id: 15,
             name: "Vercel",
             image: vercelLogo,
         },
         {
-            id: 15,
+            id: 16,
             name: "Chrome DevTools",
             image: chromeLogo,
         },
@@ -98,8 +105,7 @@ export default function Skills() {
     return (
 
         <>
-            <hr className="border-[#E2E8F0] w-full" />
-            <div className="overflow-hidden w-full" >
+            <div className="overflow-hidden w-full relative flex-col border-y border-[#191920] py-sm" >
 
                 <div className="whitespace-nowrap py-10" id='scrolling-container'>
                     <div className="flex" id="text-container">

@@ -32,7 +32,7 @@ export default function FirstSection() {
                         Shaping the future of web interactions with clean, efficient, and engaging designs{" "}
                         <ShinyText text="frontend" disabled={false} speed={2.5} className='text-[#30AF5B]' /> development.
                     </p>
-                    <hr className="border-[#E2E8F0] w-full" />
+                    <hr className="border-[#191920] w-full" />
                     {/* Social Icons */}
                     <div className="social-links flex gap-4 mt-6 font-normal">
                         <a
