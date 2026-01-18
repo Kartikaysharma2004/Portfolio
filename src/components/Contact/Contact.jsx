@@ -126,7 +126,7 @@ const Contact = () => {
                       id="from_name"
                       name="from_name"
                       required
-                      className="px-4 py-2 text-[var(--white)] border border-[var(--white-icon-tr)] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#6A7282]"
+                      className="contact-btn-css"
                     />
                   </div>
 
@@ -137,7 +137,7 @@ const Contact = () => {
                       id="reply_to"
                       name="reply_to"
                       required
-                      className="px-4 py-2 text-[var(--white)] border border-[var(--white-icon-tr)] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#6A7282]"
+                      className="contact-btn-css"
                     />
                   </div>
 
@@ -148,13 +148,13 @@ const Contact = () => {
                       name="message"
                       required
                       rows="6"
-                      className="px-4 py-2 text-[var(--white)] border border-[var(--white-icon-tr)] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#6A7282] resize-none"
+                      className="contact-btn-css resize-none"
                     ></textarea>
                   </div>
 
                   <button
                     type="submit"
-                    className="px-4 py-2 bg-[var(--white-icon-tr)] text-[var(--white)] rounded-lg opacity-60 transition-opacity border border-[var(--white-icon-tr)] hover:opacity-100 hover:bg-[var(--white-icon-tr)] cursor-pointer"
+                    className="px-4 py-2 bg-[var(--white-icon-tr)] text-[var(--white)] rounded-lg opacity-60 transition-opacity border-1 border-[var(--white-icon-tr)] hover:opacity-100 hover:bg-[var(--white-icon-tr)] cursor-pointer"
                   >
                     Submit
                   </button>
