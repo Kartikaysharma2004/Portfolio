@@ -28,13 +28,13 @@ export default function FirstSection() {
                     <h1 className="text-5xl sm:text-7xl font-semibold">
                         Frontend <br /> <span className="span text-[#30AF5B]">Developer</span>
                     </h1>
-                    <p className="text-lg sm:text-xl max-w-xl">
+                    <p className="text-lg sm:text-xl max-w-xl ">
                         Shaping the future of web interactions with clean, efficient, and engaging designs{" "}
                         <ShinyText text="frontend" disabled={false} speed={2.5} className='text-[#30AF5B]' /> development.
                     </p>
                     <hr className="border-[#191920] w-full" />
                     {/* Social Icons */}
-                    <div className="social-links flex gap-4 mt-6 font-normal">
+                    <div className="social-links font-[Inter-Regular] flex gap-4 mt-6 font-normal uppercase">
                         <a
                             href="https://github.com/Kartikaysharma2004"
                             className="relative py-3 bg-transparent group"

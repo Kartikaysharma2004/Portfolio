@@ -16,7 +16,12 @@ body {
   color: black;
   transition: background-color 0.3s ease-in-out;
 }
-
+.light .border{
+    border: 1px solid #E2E8F0;
+}
+.light .text{
+  color: #30AF5B;
+}
 .dark {
   background-color: black;
   color: white;
@@ -94,7 +99,7 @@ body {
 .dark .service-tag .contact-btn,
 .dark .work-tage .contact-btn,
 .dark .resume-btn {
-  border: 1px solid #191920;
+  border: 1px solid white;
 }
 
 .dark .service-tag .contact-btn:hover,
@@ -175,7 +180,7 @@ html::-webkit-scrollbar {
 #scrolling-container {
   display: flex;
   width: max-content;
-  animation: scrollText 40s linear infinite;
+  animation: scrollText 60s linear infinite;
 }
 
 @keyframes scrollText {
