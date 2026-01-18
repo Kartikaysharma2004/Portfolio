@@ -62,18 +62,18 @@ const Footer = () => {
       <footer ref={footerRef} className="py-6 px-14 max-sm:px-2 flex flex-col items-center">
         {/* Call to Action Box */}
         <div className="footer bg-white shadow-lg rounded-4xl py-10 items-center flex justify-center flex-col text-center h-96 w-[70rem] max-lg:w-full">
-          <p ref={badgeRef} className="work inline-flex items-center px-4 py-2 bg-lime-100 text-green-600 rounded-full text-sm mb-3">
+          <p ref={badgeRef} className="work inline-flex items-center px-4 py-2 bg-lime-100 rounded-full text-sm mb-3">
             <div className='flex mr-2'>
               <span className="w-2 h-2 bg-green-500 rounded-full animate-ping"></span>
               <span className="absolute w-2 h-2 bg-green-500 rounded-full"></span>
             </div>
-            <ShinyText text="Available for work" disabled={false} speed={3} className='text-sm max-sm:text-xs'/>
+            <ShinyText text="Available for work" speed={2.8} color='#30AF5B' shineColor='#b5ff6d' className='text-sm max-sm:text-xs'/>
           </p>
           <h2 ref={textRef} className="text-2xl sm:text-5xl font-medium text-gray-900">
             Let’s build something<br />amazing together.
           </h2>
           <NavLink to={"/contact"}>
-            <button ref={buttonRef} className="contact-btn mt-5 px-8 py-3 bg-[#18181B] text-white rounded-full text-sm max-sm:text-xs cursor-pointer font-medium transition ease-in-out hover:bg-gray-800">
+            <button ref={buttonRef} className="dark font-[Inter-regular] contact-btn mt-5 px-8 py-3 rounded-full text-sm max-sm:text-xs cursor-pointer font-medium">
               Contact Me
             </button>
           </NavLink>
