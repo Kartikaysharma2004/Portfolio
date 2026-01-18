@@ -61,7 +61,7 @@ const Education = () => {
 
                 {/* Left Section (Heading) */}
                 <div ref={textRef} className="md:w-1/2 pb-5">
-                    <h2 className="text-lg mb-2 text-[#30AF5B]"><FontAwesomeIcon icon={faStarOfLife} className="text-lg mr-2" /><ShinyText text="Achievements" disabled={false} speed={2.5} />
+                    <h2 className="text-lg mb-2 text-[#30AF5B]"><FontAwesomeIcon icon={faStarOfLife} className="text-lg mr-2" /><ShinyText text="Achievements" speed={2.8} color='#30AF5B' shineColor='#b5ff6d' />
                     </h2>
                     <h3 className="text-4xl md:text-5xl mb-4 font-medium text-[var(--white)]">
                         Awards & <br />Recognition

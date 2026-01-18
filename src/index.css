@@ -19,8 +19,8 @@ body {
 .light .border{
     border: 1px solid #E2E8F0;
 }
-.light .text{
-  color: #30AF5B;
+.dark .text{
+  color: #b5ff6d;
 }
 .dark {
   background-color: black;

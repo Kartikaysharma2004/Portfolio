@@ -65,7 +65,7 @@ const AboutPage2 = () => {
                     {" "}
                     <h2 class="text-lg mb-2 shiny-sec text-[#30AF5B]">
                         <FontAwesomeIcon icon={faStarOfLife} className="text-lg mr-2" />
-                        <ShinyText text="Steps I follow" disabled={false} speed={2.5} />
+                        <ShinyText text="Steps I follow" speed={2.8} color='#30AF5B' shineColor='#b5ff6d' />
                     </h2>{" "}
                     <h3 class="text-4xl md:text-5xl font-medium text-[var(--white)] mb-6">
                         My Development Process
