@@ -5,7 +5,7 @@ import { faStarOfLife } from "@fortawesome/free-solid-svg-icons";
 const SecondSection = () => {
     return (
         <>
-            <div className='border overflow-hidden w-full relative flex-col border-y border-[#191920] py-sm'>
+            <div className='border overflow-hidden w-full relative flex-col border-y border-[#e2e8f0] py-sm'>
                 <div className='flex gap-5 text-5xl flex-row items-center font-medium whitespace-nowrap p-10 text-gray-300' id='scrolling-container'>
                     <div id="text-container" className="flex items-center gap-5">
                         <FontAwesomeIcon icon={faStarOfLife} className='text-xl' />

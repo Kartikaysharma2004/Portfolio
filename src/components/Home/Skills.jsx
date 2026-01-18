@@ -105,7 +105,7 @@ export default function Skills() {
     return (
 
         <>
-            <div className="border overflow-hidden w-full relative flex-col border-y border-[#191920] py-sm" >
+            <div className="border overflow-hidden w-full relative flex-col border-y border-[#e2e8f0] py-sm" >
 
                 <div className="whitespace-nowrap py-10" id='scrolling-container'>
                     <div className="flex" id="text-container">

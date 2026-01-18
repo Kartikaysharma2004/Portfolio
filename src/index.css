@@ -22,8 +22,8 @@ body {
   color: black;
   transition: background-color 0.3s ease-in-out;
 }
-.light .border {
-  border: 1px solid #e2e8f0;
+.dark .border {
+  border: 1px solid #191920;
 }
 .dark .text {
   color: #b5ff6d;
@@ -96,7 +96,6 @@ body {
   color: #B5FF6D;
 } */
 
-.dark hr,
 .dark .skills {
   border: 1px solid #191920;
 }
