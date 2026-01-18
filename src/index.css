@@ -67,10 +67,19 @@ body {
   color: white;
 }
 
+.dark .icons{
+  color:#A9A9BD;
+}
+
 .dark footer .contact-btn {
   color: white;
   border: 1px solid white;
   background-color: transparent;
+}
+
+.dark .process {
+  color: black;
+  background-color: white;
 }
 
 .dark .work,

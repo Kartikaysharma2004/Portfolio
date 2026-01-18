@@ -72,7 +72,7 @@ const Page1 = () => {
           {" "}
           <h2 class="text-lg text-[#30AF5B] mb-2 shiny-sec">
             <FontAwesomeIcon icon={faStarOfLife} className="text-lg mr-2" />
-            <ShinyText text="My Work" disabled={false} speed={2.5} />
+            <ShinyText text="My Work" speed={2.8} color='#30AF5B' shineColor='#b5ff6d' />
           </h2>{" "}
           <h3 class="text-4xl md:text-5xl font-medium text-[var(--white)] mb-6">
             Projects

@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faLinkedin, faInstagram, faDev } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faInstagram, faDev, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { NavLink } from 'react-router-dom';
 import gsap from "gsap";
@@ -88,20 +88,20 @@ const Footer = () => {
 
           {/* Social Media Icons */}
           <div className="social-links flex gap-5" ref={iconsRef}>
-            <a href="https://www.linkedin.com/in/kartikay-sharma2004/" className="text-gray-700 hover:text-black transition text-2xl">
-              <FontAwesomeIcon icon={faLinkedin} className='text-xl' />
+            <a href="https://www.linkedin.com/in/kartikay-sharma2004/" className="text-black text-2xl">
+              <FontAwesomeIcon icon={faLinkedinIn} className='icons text-xl' />
             </a>
-            <a href="https://github.com/Kartikaysharma2004/" className="text-gray-700 hover:text-black transition text-2xl">
-              <FontAwesomeIcon icon={faGithub} className='text-xl' />
+            <a href="https://github.com/Kartikaysharma2004/" className="text-black transition text-2xl">
+              <FontAwesomeIcon icon={faGithub} className='icons text-xl' />
             </a>
-            <a href="#" className="text-gray-700 hover:text-black transition text-2xl">
-              <FontAwesomeIcon icon={faInstagram} className='text-xl' />
+            <a href="#" className="text-black transition text-2xl">
+              <FontAwesomeIcon icon={faInstagram} className='icons text-xl' />
             </a>
-            <a href="mailto:kartikaysharmaa2004@gmail.com" className="text-gray-700 hover:text-black transition text-2xl">
-              <FontAwesomeIcon icon={faEnvelope} className='text-xl' />
+            <a href="mailto:kartikaysharmaa2004@gmail.com" className="text-black transition text-2xl">
+              <FontAwesomeIcon icon={faEnvelope} className='icons text-xl' />
             </a>
-            <a href="https://dev.to/kartikaysharma2004" className="text-gray-700 hover:text-black transition text-2xl">
-            <FontAwesomeIcon icon={faDev} className= 'text-xl' />
+            <a href="https://dev.to/kartikaysharma2004" className="text-black transition text-2xl">
+            <FontAwesomeIcon icon={faDev} className= 'icons text-xl' />
             </a>
           </div>
         </div>

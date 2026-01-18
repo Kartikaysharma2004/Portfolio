@@ -26,11 +26,11 @@ export default function FirstSection() {
                 <div ref={textRef} className="intro w-full lg:w-1/2 space-y-4 py-6">
                     <p className="text-lg sm:text-xl">Hi, I'm Kartikay Sharma</p>
                     <h1 className="text-5xl sm:text-7xl font-semibold">
-                        Frontend <br /> <span className="span text-[#30AF5B]">Developer</span>
+                        Frontend <br /> <span className="text text-[#30AF5B]">Developer</span>
                     </h1>
                     <p className="text-lg sm:text-xl max-w-xl ">
                         Shaping the future of web interactions with clean, efficient, and engaging designs{" "}
-                        <ShinyText text="frontend" disabled={false} speed={2.5} className='text-[#30AF5B]' /> development.
+                        <ShinyText text="frontend" speed={2.8} color='#30AF5B' shineColor='#b5ff6d' /> development.
                     </p>
                     <hr className="border-[#191920] w-full" />
                     {/* Social Icons */}

@@ -77,7 +77,7 @@ const AboutPage2 = () => {
                 <div className='flex flex-wrap gap-6 p-5 items-center justify-center'>
                     {processes.map((process) => (
                         <div key={process.id} className="container border border-gray-400 w-72 h-52 rounded-2xl p-5 shadow-lg hover:shadow-xl transition ease-in-out duration-300">
-                            <FontAwesomeIcon icon={process.icon} className='bg-black text-white rounded-full p-3' />
+                            <FontAwesomeIcon icon={process.icon} className='process bg-black text-white rounded-full p-3' />
                             <h1 className='font-medium text-xl max-md:text-lg mt-2'>{process.id}. {process.title}</h1>
                             <p className='mt-2'>{process.description}</p>
                         </div>

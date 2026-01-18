@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import gsap from "gsap";
 import {
   faGithub,
-  faLinkedin,
+  faLinkedinIn,
   faInstagram,
   faDev,
 } from "@fortawesome/free-brands-svg-icons";
@@ -79,28 +79,28 @@ const Contact = () => {
                   href="https://www.linkedin.com/in/kartikay-sharma2004/"
                   className="text-gray-700 hover:text-black transition"
                 >
-                  <FontAwesomeIcon icon={faLinkedin} />
+                  <FontAwesomeIcon icon={faLinkedinIn} className="icons" />
                 </a>
                 <a
                   href="https://github.com/Kartikaysharma2004/"
                   className="text-gray-700 hover:text-black transition"
                 >
-                  <FontAwesomeIcon icon={faGithub} />
+                  <FontAwesomeIcon icon={faGithub} className="icons" />
                 </a>
                 <a
                   href="#"
                   className="text-gray-700 hover:text-black transition"
                 >
-                  <FontAwesomeIcon icon={faInstagram} />
+                  <FontAwesomeIcon icon={faInstagram} className="icons" />
                 </a>
                 <a
                   href="mailto:kartikaysharmaa2004@gmail.com"
                   className="text-gray-700 hover:text-black transition"
                 >
-                  <FontAwesomeIcon icon={faEnvelope} />
+                  <FontAwesomeIcon icon={faEnvelope} className="icons" />
                 </a>
                 <a href="https://dev.to/kartikaysharma2004" className="text-gray-700 hover:text-black transition">
-                  <FontAwesomeIcon icon={faDev} />
+                  <FontAwesomeIcon icon={faDev} className="icons" />
                 </a>
               </div>
               <iframe

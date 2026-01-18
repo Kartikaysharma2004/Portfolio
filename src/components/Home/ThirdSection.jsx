@@ -29,9 +29,9 @@ const ThirdSection = () => {
     <>
 
       <div ref={aboutRef} className="page-3 pb-16 pt-20 px-20 max-md:px-4">
-        <h2 className="h2 text-center text-[#30AF5B] text-sm max-sm:text- pb-10 uppercase">
+        <h2 className="h2 text-center text-[#30AF5B] text-lg pb-10 uppercase">
           <FontAwesomeIcon icon={faStarOfLife} className='text-sm pr-2' />
-          <ShinyText text="About Me" disabled={false} speed={3} />
+          <ShinyText text="About Me" speed={2.8} color='#30AF5B' shineColor='#b5ff6d' />
 
         </h2>
         <h3 ref={textRef} className="text-3xl font-medium max-md:text-xl text-gray-600 loading-8 flex justify-center text-center">
