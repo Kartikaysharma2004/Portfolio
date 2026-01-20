@@ -29,7 +29,7 @@ export default function NotFound() {
                     hoverIntensity={0.55}
                     enableHover
                     fontFamily="Inter-Regular"
-                    fontSize="clamp(5rem,15vw,14rem)"
+                    fontSize="clamp(7rem,15vw,14rem)"
                 >
                     404
                 </FuzzyText>
@@ -40,7 +40,7 @@ export default function NotFound() {
                         hoverIntensity={0.5}
                         enableHover
                         fontFamily="Inter-Regular"
-                        fontSize="clamp(2rem,5vw,4rem)"
+                        fontSize="clamp(4rem,5vw,4rem)"
                     >
                         Page Not Found
                     </FuzzyText>
