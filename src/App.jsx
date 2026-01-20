@@ -16,6 +16,7 @@ import AboutPage2 from './components/About/AboutPage2'
 import AboutPage3 from './components/About/AboutPage3'
 import AboutPage4 from './components/About/AboutPage4'
 import ScrollToTop from './components/ScrollToTop'
+import NotFound from './components/NotFound'
 
 
 const router = createBrowserRouter([
@@ -23,7 +24,7 @@ const router = createBrowserRouter([
     path: "/",
     element: (
       <>
-        <ScrollToTop/>
+        <ScrollToTop />
         <Header />
         <FirstSection />
         <SecondSection />
@@ -39,13 +40,13 @@ const router = createBrowserRouter([
     path: "/about",
     element: (
       <>
-        <ScrollToTop/>
+        <ScrollToTop />
         <Header />
         <AboutPage1 />
         <Skills />
         <AboutPage2 />
         <AboutPage3 />
-        <AboutPage4/>
+        <AboutPage4 />
         <Footer />
       </>
     ),
@@ -54,7 +55,7 @@ const router = createBrowserRouter([
     path: "/projects",
     element: (
       <>
-        <ScrollToTop/>
+        <ScrollToTop />
         <Header />
         <Page1 />
         <Footer />
@@ -65,13 +66,20 @@ const router = createBrowserRouter([
     path: "/contact",
     element: (
       <>
-        <ScrollToTop/>
+        <ScrollToTop />
         <Header />
         <Contact />
         <Footer />
       </>
     ),
   },
+  // 404 Route Path
+  {
+    path: "*",
+    element: (
+      <NotFound />
+    )
+  }
 ])
 
 const App = () => {
@@ -83,7 +91,7 @@ const App = () => {
       duration: 1.5,
     });
   }, [])
-  
+
 
   return <RouterProvider router={router} />;
 }

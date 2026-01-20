@@ -4,6 +4,8 @@ import React, { useEffect, useRef } from 'react'
 import gsap from "gsap";
 import ShinyText from "./ShinyText";
 import image from "/src/images/Kartikay.jpg"
+import CircularText from "../Animations/CircularText";
+import { Link } from "react-router-dom";
 
 export default function FirstSection() {
 
@@ -68,14 +70,33 @@ export default function FirstSection() {
 
                 {/* Image Section */}
                 <div className="relative w-full lg:w-1/2 flex justify-center">
-                    <div className="h-[500px] w-[400px] max-md:h-96 overflow-hidden rounded-b-full shadow-2xl">
+                    {/* Image wrapper (relative) */}
+                    <div className="relative h-[500px] w-[400px] max-md:h-96 rounded-b-full shadow-2xl">
                         <img
                             src={image}
-                            alt="Kartikay" loading="lazy" decoding="async"
-                            className="avtar h-full w-full aspect-[3/4] rounded-b-full object-cover transition duration-300 hover:scale-[1.02] grayscale hover:grayscale-0"
+                            alt="Kartikay"
+                            loading="lazy"
+                            decoding="async"
+                            className="avtar h-full w-full aspect-[3/4] rounded-b-full object-cover transition duration-300 grayscale hover:grayscale-0"
                         />
+                        {/* Circular Text */}
+
+                        {/* <Link to={"/contact"}>
+                            <div className="flex items-center justify-center group absolute bottom-0 right-0 translate-x-1/4 translate-y-1/4
+                                place-content-center">
+                                <CircularText
+                                    text="LETS TALK * LETS TALK * LETS TALK * LETS TALK * "
+                                    spinDuration={15}
+                                    onHover="none" className="custom-class"
+                                />
+                                <FontAwesomeIcon icon={faArrowRight} className="border-1 border-[#202025] text-[#C4C5CC] rounded-full p-8 fa-solid fa-arrow-right absolute text-sm cursor-pointer -rotate-45 transition-all duration-500 group-hover:rotate-0 pointer-events-auto" />
+
+                            </div>
+                        </Link> */}
+
                     </div>
                 </div>
+
 
             </div>
         </section>
