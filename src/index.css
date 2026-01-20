@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
-@layer{
-  .contact-btn-css{
-    @apply px-4 py-2 text-[var(--white)] border-1 border-[var(--white-icon-tr)] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#6A7282]
+@layer {
+  .contact-btn-css {
+    @apply px-4 py-2 text-[var(--white)] border-1 border-[var(--white-icon-tr)] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#6A7282];
   }
 }
 
@@ -67,8 +67,8 @@ body {
   color: white;
 }
 
-.dark .icons{
-  color:#A9A9BD;
+.dark .icons {
+  color: #a9a9bd;
 }
 
 .dark footer .contact-btn {
@@ -91,7 +91,10 @@ body {
 .dark .scroll-btn {
   background-color: #111116;
 }
-
+.dark .about-container {
+  background-color: #111116;
+  color: white;
+}
 /* .dark .intro .span{
   color: #B5FF6D;
 } */
