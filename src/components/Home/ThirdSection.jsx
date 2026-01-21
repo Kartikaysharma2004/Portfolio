@@ -118,9 +118,9 @@ const AboutSection = () => {
 
           {/* Divider */}
           <div className="flex items-center gap-3 my-6 font-[Inter-Regular]">
-            <div className="h-px flex-1 bg-white/10" />
+            <div className="h-px flex-1 border border-[#e2e8f0]" />
             <span className="text-xs text-gray-500 uppercase tracking-widest">OR</span>
-            <div className="h-px flex-1 bg-white/10" />
+            <div className="h-px flex-1 border border-[#e2e8f0]" />
           </div>
 
           {/* Button */}
