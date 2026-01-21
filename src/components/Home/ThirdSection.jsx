@@ -1,6 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import image from "/src/images/Kartikay.jpg"
-import ProfileCard from "../Animations/ProfileCard "
+// import image from "/src/images/Kartikay.jpg"
 import { Link } from "react-router-dom";
 import { faCircleCheck } from "@fortawesome/free-regular-svg-icons";
 import tsslogo from "/src/images/Logos/tss.jpg"
@@ -10,6 +9,7 @@ import gsapLogo from "/src/images/Logos/GSAP.svg";
 import reactLogo from "/src/images/Logos/React.js.svg";
 import tailwindLogo from "/src/images/Logos/TailwindCSS.svg";
 import ShinyText from "./ShinyText";
+// import image from "/src/images/image-second.jpeg"
 
 
 
@@ -64,22 +64,7 @@ const AboutSection = () => {
 
         {/* LEFT PROFILE CARD */}
         <div className="max-lg:hidden">
-          <ProfileCard
-          name="Kartikay Sharma"
-          title="Frontend Developer"
-          handle="javicodes"
-          status="Online"
-          contactText="Contact Me"
-          avatarUrl="/path/to/avatar.jpg"
-          showUserInfo={false}
-          enableTilt={true}
-          enableMobileTilt={false}
-          onContactClick={() => console.log('Contact clicked')}
-          showIcon
-          showBehindGlow
-          behindGlowColor="hsla(164, 100%, 70%, 0.6)"
-          customInnerGradient="linear-gradient(145deg,hsla(164, 40%, 45%, 0.55) 0%,hsla(230, 60%, 70%, 0.27) 100%)"
-        />
+
         </div>
 
 
