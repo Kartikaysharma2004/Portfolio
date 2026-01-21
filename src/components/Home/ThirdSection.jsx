@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import image from "/src/images/Kartikay.jpg"
-import { Link } from "react-router-dom";
+import { faGithub, faInstagram, faDev, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faCircleCheck } from "@fortawesome/free-regular-svg-icons";
 import tsslogo from "/src/images/Logos/tss.jpg"
 import kslogo from "/src/images/Logos/ks.webp"
@@ -9,8 +9,7 @@ import gsapLogo from "/src/images/Logos/GSAP.svg";
 import reactLogo from "/src/images/Logos/React.js.svg";
 import tailwindLogo from "/src/images/Logos/TailwindCSS.svg";
 import ShinyText from "./ShinyText";
-// import image from "/src/images/image-second.jpeg"
-
+import image from "/src/images/Kartikay.jpg"
 
 
 const AboutSection = () => {
@@ -63,10 +62,73 @@ const AboutSection = () => {
       <div className="max-w-6xl w-full grid grid-cols-1 lg:grid-cols-3 gap-8">
 
         {/* LEFT PROFILE CARD */}
-        <div className="max-lg:hidden">
+        <div className=" about-container bg-[#eef0ff] text-center rounded-3xl p-10 ">
+
+          {/* Avatar */}
+          <div className="flex justify-center">
+            <div className="w-30 h-30 rounded-full bg-gradient-to-tr from-[#b5ff6d] to-green-500 p-[3px]">
+              <img
+                src={image}
+                alt="Profile"
+                className="w-full h-full rounded-full object-cover"
+              />
+            </div>
+          </div>
+
+
+          {/* Name & Role */}
+          <h3 className="mt-4 text-lg font-semibold">Kartikay Sharma</h3>
+          <p className="text-sm">Frontend Developer</p>
+
+
+          {/* Stats */}
+          <div className="mt-6 flex justify-between">
+            <div>
+              <p className="text-lg font-semibold">20+</p>
+              <span className="text-xs text text-[#838C96]">Projects</span>
+            </div>
+            <div>
+              <p className="text-lg font-semibold">400+</p>
+              <span className="text-xs text text-[#838C96]">Contributions</span>
+            </div>
+            <div>
+              <p className="text-lg font-semibold">1.5+</p>
+              <span className="text-xs text text-[#838C96]">Years Exp</span>
+            </div>
+          </div>
+
+          {/* Social Media Icons */}
+          <div className="social-links flex justify-center mt-10 gap-5">
+            <a href="https://www.linkedin.com/in/kartikay-sharma2004/" className="text-black text-2xl">
+              <FontAwesomeIcon icon={faLinkedinIn} className='icons text-xl' />
+            </a>
+            <a href="https://github.com/Kartikaysharma2004/" className="text-black transition text-2xl">
+              <FontAwesomeIcon icon={faGithub} className='icons text-xl' />
+            </a>
+            <a href="#" className="text-black transition text-2xl">
+              <FontAwesomeIcon icon={faInstagram} className='icons text-xl' />
+            </a>
+            <a href="mailto:kartikaysharmaa2004@gmail.com" className="text-black transition text-2xl">
+              <FontAwesomeIcon icon={faEnvelope} className='icons text-xl' />
+            </a>
+            <a href="https://dev.to/kartikaysharma2004" className="text-black transition text-2xl">
+              <FontAwesomeIcon icon={faDev} className='icons text-xl' />
+            </a>
+          </div>
+
+          {/* Divider */}
+          <div className="flex items-center gap-3 my-6 font-[Inter-Regular]">
+            <div className="h-px flex-1 bg-white/10" />
+            <span className="text-xs text-gray-500 uppercase tracking-widest">OR</span>
+            <div className="h-px flex-1 bg-white/10" />
+          </div>
+
+          {/* Button */}
+          <a href="linkedin.com/in/kartikay-sharma2004/" target="_blank"><button className="dark profile-card mt-3 w-full py-2 rounded-xl cursor-pointer font-[Inter-regular] font-medium">
+            Follow on LinkedIn
+          </button></a>
 
         </div>
-
 
         {/* RIGHT SIDE */}
         <div className="lg:col-span-2 flex flex-col gap-8">

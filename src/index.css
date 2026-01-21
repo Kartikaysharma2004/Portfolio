@@ -28,6 +28,10 @@ body {
 .dark .text {
   color: #b5ff6d;
 }
+.dark .profile-card{
+  background-color: white;
+  color: black;
+}
 .dark {
   background-color: black;
   color: white;
