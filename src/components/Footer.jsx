@@ -59,9 +59,9 @@ const Footer = () => {
 
   return (
     <>
-      <footer ref={footerRef} className="py-6 px-14 max-sm:px-2 flex flex-col items-center">
+      <footer ref={footerRef} className="py-6 px-14 max-sm:px-4 flex flex-col items-center">
         {/* Call to Action Box */}
-        <div className="footer bg-white shadow-lg rounded-4xl py-10 items-center flex justify-center flex-col text-center h-96 w-[70rem] max-lg:w-full">
+        <div className="footer bg-white shadow-lg rounded-4xl py-14 items-center flex justify-center flex-col text-center h-96 w-[70rem] max-lg:w-full">
           <p ref={badgeRef} className="work inline-flex items-center px-4 py-2 bg-lime-100 rounded-full text-sm mb-3">
             <div className='flex mr-2'>
               <span className="w-2 h-2 bg-green-500 rounded-full animate-ping"></span>
@@ -69,7 +69,7 @@ const Footer = () => {
             </div>
             <ShinyText text="Available for work" speed={2.8} color='#30AF5B' shineColor='#b5ff6d' className='text-sm max-sm:text-xs'/>
           </p>
-          <h2 ref={textRef} className="text-2xl sm:text-5xl font-medium text-gray-900">
+          <h2 ref={textRef} className="text-2xl sm:text-5xl font-medium text-gray-900 text-balance">
             Let’s build something<br />amazing together.
           </h2>
           <NavLink to={"/contact"}>
