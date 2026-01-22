@@ -187,7 +187,7 @@ const AboutSection = () => {
                     <hr className="border border-[#e2e8f0] mt-4 max-sm:mt-3" />
                   )}
                 </div>
-              ))}
+                ))}
             </div>
 
 
