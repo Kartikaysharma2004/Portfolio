@@ -66,7 +66,7 @@ const Education = () => {
                     <h3 className="text-4xl md:text-5xl mb-4 font-medium text-[var(--white)]">
                         Awards & <br />Recognition
                     </h3>
-                    <p className="text-sm font-medium text-gray-600 pr-28 max-sm:pr-5">I have accomplished significant milestones that showcase my passion, dedication, and expertise in development and leadership.</p>
+                    <p className="description pr-28 max-sm:pr-5 tracking-wide max-sm:text-sm max-sm:font-[Inter-Regular]">I have accomplished significant milestones that showcase my passion, dedication, and expertise in development and leadership.</p>
                 </div>
 
                 {/* Right Section (Education Details) */}

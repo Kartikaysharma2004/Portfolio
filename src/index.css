@@ -22,6 +22,9 @@ body {
   color: black;
   transition: background-color 0.3s ease-in-out;
 }
+.dark .description{
+  color:#A9A9BD
+}
 .dark .border {
   border: 1px solid #191920;
 }

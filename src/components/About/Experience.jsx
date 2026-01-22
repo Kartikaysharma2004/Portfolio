@@ -80,7 +80,7 @@ const Experience = () => {
                     <h3 className="text-4xl md:text-5xl mb-4 font-medium text-[var(--white)]">
                         Experience
                     </h3>
-                    <p className="text-sm font-medium text-gray-600 pr-28 max-sm:pr-5 mb-4">I’ve partnered with student-tech communities and freelance clients to craft production-ready interfaces that feel fast, modern, and visually refined.</p>
+                    <p className="mb-4 description pr-28 max-sm:pr-5 max-sm:tracking-wide max-sm:text-sm max-sm:font-[Inter-Regular]">I’ve partnered with student-tech communities and freelance clients to craft production-ready interfaces that feel fast, modern, and visually refined.</p>
                 </div>
 
                 {/* Right Section (Experience Details) */}

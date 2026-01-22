@@ -65,7 +65,7 @@ const Education = () => {
           <h3 className="text-4xl md:text-5xl mb-4 font-medium text-[var(--white)]">
             My Education
           </h3>
-          <p className="text-sm font-medium text-gray-600 pr-28 max-sm:pr-5 mb-4">Learning never tires the mind; it keeps it active and curious. It helps us grow and come up with new ideas.</p>
+          <p className="description pr-28 max-sm:pr-5 mb-4 tracking-wide max-sm:text-sm max-sm:font-[Inter-Regular]">Learning never tires the mind; it keeps it active and curious. It helps us grow and come up with new ideas.</p>
         </div>
 
         {/* Right Section (Education Details) */}

@@ -70,7 +70,7 @@ const AboutPage2 = () => {
                     <h3 class="text-4xl md:text-5xl font-medium text-[var(--white)] mb-6">
                         My Development Process
                     </h3>
-                    <p class="mb-4 text-lg max-sm:text-sm">
+                    <p class="mb-4 text-lg max-sm:text-sm description pr-28 max-sm:pr-5 tracking-wide max-sm:font-[Inter-Regular]">
                         I have built projects that deliver seamless and engaging digital experiences.
                     </p>
                 </div>
