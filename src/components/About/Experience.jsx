@@ -84,7 +84,7 @@ const Experience = () => {
                 </div>
 
                 {/* Right Section (Experience Details) */}
-                <div  className="md:w-1/2">
+                <div ref={edtextRef} className="md:w-1/2">
                     <div className="flex flex-col gap-4 font-[Inter-Regular]">
                         {roles.map((item, index) => (
                             <div key={item.id}>

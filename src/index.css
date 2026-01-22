@@ -22,8 +22,8 @@ body {
   color: black;
   transition: background-color 0.3s ease-in-out;
 }
-.dark .description{
-  color:#A9A9BD
+.dark .description {
+  color: #a9a9bd;
 }
 .dark .border {
   border: 1px solid #191920;
@@ -31,7 +31,7 @@ body {
 .dark .text {
   color: #b5ff6d;
 }
-.dark .profile-card{
+.dark .profile-card {
   background-color: white;
   color: black;
 }
@@ -232,4 +232,41 @@ html::-webkit-scrollbar {
 }
 .mask {
   display: flex;
+}
+
+.eye {
+  transform-origin: center;
+  animation: blink 1.8s ease-in-out infinite;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    transform: scaleY(1);
+  }
+  38% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(0.1);
+  }
+  62% {
+    transform: scaleY(1);
+  }
+}
+
+.about-eye {
+  fill: #f7f8fa;
+}
+.dark .about-eye {
+  fill: #111111;
+}
+.about-pupil {
+  fill: #111111;
+}
+.dark .about-pupil {
+  fill: #ffffff;
+}
+.dark .about-face {
+  fill: #f3f4f6; /* off-white instead of pure white */
 }

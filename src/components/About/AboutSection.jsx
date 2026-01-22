@@ -26,6 +26,25 @@ const Page1 = () => {
   return (
     <>
       <section ref={aboutRef} className="pb-10 pt-15 flex flex-col justify-center items-center px-4 sm:px-16">
+        <div className="w-[13rem] h-[13rem] top-10 right-0 absolute max-lg:hidden">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 360 300"
+            className="w-full h-full -scale-x-100"
+          >
+            <path
+              d="M65,50 L145,50 C235,50 255,120 253,150 C255,180 230,240 165,250 L65,250 Z"
+              fill="currentColor"
+              className="about-face"
+            />
+            <g className="eye">
+              <circle cx="120" cy="130" r="25" className="about-eye" />
+              <circle cx="185" cy="130" r="25" className="about-eye" />
+              <circle cx="120" cy="130" r="8" className="about-pupil" />
+              <circle cx="185" cy="130" r="8" className="about-pupil" />
+            </g>
+          </svg>
+        </div>
 
         <div className="relative flex flex-col lg:flex-row items-center justify-between w-full gap-8">
           {/* Text Section */}
@@ -36,7 +55,7 @@ const Page1 = () => {
             </h1>
             <div className='text-right'>
               <p ref={paraRef} className="text-balance sm:text-xl max-sm:text-start mb-10 max-md:ml-0 ml-40">
-              
+
                 I'm <ShinyText text="Kartikay Sharma" speed={2.8} color='#30AF5B' shineColor='#b5ff6d' />, a creative frontend developer dedicated to building visually appealing, user-friendly, and responsive web experiences. I focus to blend design and functionality to create seamless digital interactions.{" "}
               </p>
 
@@ -47,6 +66,17 @@ const Page1 = () => {
               </a>
             </div>
           </div>
+        </div>
+        <div className="w-[13rem] h-[13rem] bottom-0 left-0 absolute max-lg:hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 300" className="w-full h-full">
+            <path d="M65,50 L145,50 C235,50 255,120 253,150 C255,180 230,240 165,250 L65,250 Z" fill="currentColor" className="about-face"></path>
+            <g className="eye">
+              <circle cx="120" cy="130" r="25" className='about-eye' />
+              <circle cx="185" cy="130" r="25" className='about-eye' />
+              <circle cx="120" cy="130" r="8" className="about-pupil" />
+              <circle cx="185" cy="130" r="8" className="about-pupil" />
+            </g>
+          </svg>
         </div>
       </section>
     </>
