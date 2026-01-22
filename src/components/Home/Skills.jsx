@@ -114,7 +114,7 @@ export default function Skills() {
                                 key={skills.id}
                                 className="skills flex items-center gap-2 px-6 py-2 mx-3 shadow-sm bg-white rounded-full"
                             >
-                                <img src={skill.image} alt={skill.name} className="w-5 h-5" />
+                                <img src={skill.image} alt={skill.name} className="w-5 h-5" loading="lazy" />
                                 <span className="text-sm">{skill.name}</span>
                             </div>
                         ))}
@@ -124,7 +124,7 @@ export default function Skills() {
                                 key={`dup-${index}`}
                                 className="skills flex items-center gap-2 px-6 py-2 mx-3 bg-white rounded-full shadow-sm"
                             >
-                                <img src={skill.image} alt={skill.name} className="w-5 h-5" />
+                                <img src={skill.image} alt={skill.name} className="w-5 h-5" loading="lazy" />
                                 <span className="text-sm">{skill.name}</span>
                             </div>
                         ))}

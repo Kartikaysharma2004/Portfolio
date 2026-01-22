@@ -71,6 +71,7 @@ const AboutSection = () => {
                 src={image}
                 alt="Profile"
                 className="w-full h-full rounded-full object-cover"
+                loading="lazy"
               />
             </div>
           </div>
@@ -134,7 +135,7 @@ const AboutSection = () => {
         <div className="lg:col-span-2 flex flex-col gap-8">
 
           {/* ABOUT ME */}
-          <div className="about-container bg-[#eef0ff] rounded-3xl p-8">
+          <div className="about-container bg-[#eef0ff] rounded-3xl p-8 max-sm:py-8 max-sm:px-4 text-balance">
             <h2 className="text-2xl font-semibold mb-2">About Me</h2>
 
             <div className="flex items-center gap-2 text text-[#30AF5B] text-sm mb-4">
@@ -162,7 +163,8 @@ const AboutSection = () => {
                       <img
                         src={item.logo}
                         alt={item.company}
-                        className={`rounded-xl `}
+                        className={`rounded-xl `} 
+                        loading="lazy"
                       />
                     </div>
 
@@ -205,6 +207,7 @@ const AboutSection = () => {
                       src={skill.image}
                       alt={skill.skill}
                       className="w-5 h-5"
+                      loading="lazy"
                     />
                     <span>{skill.skill}</span>
                   </div>
