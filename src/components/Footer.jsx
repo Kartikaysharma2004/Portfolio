@@ -73,7 +73,7 @@ const Footer = () => {
             Let’s build something<br />amazing together.
           </h2>
           <NavLink to={"/contact"}>
-            <button ref={buttonRef} className="dark font-[Inter-regular] contact-btn mt-5 px-8 py-3 rounded-full text-sm max-sm:text-xs cursor-pointer font-medium">
+            <button ref={buttonRef} className="dark font-[Inter-regular] cont act-btn mt-5 px-8 py-3 rounded-full text-sm max-sm:text-xs cursor-pointer font-medium">
               Contact Me
             </button>
           </NavLink>
