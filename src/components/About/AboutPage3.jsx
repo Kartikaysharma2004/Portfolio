@@ -72,7 +72,7 @@ const Education = () => {
         <div ref={edtextRef} className="md:w-1/2 max-sm:text-sm">
           {education.map((edu, index) => (
             <div key={index} className="flex justify-between items-center border-b border-gray-400 py-4">
-              <div className="text-lg font-medium">
+              <div className="text-lg max-sm:text-sm font-medium">
                 {edu.degree}
                 <span className="text-gray-400 text-sm block">{edu.institution}</span>
               </div>
