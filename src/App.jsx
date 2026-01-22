@@ -12,6 +12,7 @@ import ThirdSection from './components/Home/ThirdSection'
 import FourthSection from './components/Home/FourthSection'
 import FifthSection from './components/Home/FifthSection'
 import Skills from './components/Home/Skills'
+import Experience from "./components/About/Experience"
 import AboutPage2 from './components/About/AboutPage2'
 import AboutPage3 from './components/About/AboutPage3'
 import AboutPage4 from './components/About/AboutPage4'
@@ -45,6 +46,7 @@ const router = createBrowserRouter([
         <AboutPage1 />
         <Skills />
         <AboutPage2 />
+        <Experience/>
         <AboutPage3 />
         <AboutPage4 />
         <Footer />

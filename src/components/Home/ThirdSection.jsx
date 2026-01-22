@@ -124,7 +124,7 @@ const AboutSection = () => {
           </div>
 
           {/* Button */}
-          <a href="linkedin.com/in/kartikay-sharma2004/" target="_blank"><button className="dark profile-card mt-3 w-full py-2 rounded-xl cursor-pointer font-[Inter-regular] font-medium">
+          <a href="https://www.linkedin.com/in/kartikay-sharma2004/" target="_blank"><button className="dark profile-card mt-3 w-full py-2 rounded-xl cursor-pointer font-[Inter-regular] font-medium">
             Follow on LinkedIn
           </button></a>
 
