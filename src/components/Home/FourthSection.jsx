@@ -53,7 +53,7 @@ export default function FeaturedWork() {
                 {projects.map((project, index) => (
                     <div
                         key={project.id}
-                        className="flex flex-col md:flex-row items-center gap-6 mb-12 border-b border-gray-700 pb-8 w-full"
+                        className="flex flex-col md:flex-row items-center max-md:items-start gap-6 mb-12 border-b border-gray-700 pb-8 w-full"
                     >
                         {/* Text on the left */}
                         <div className="flex-1 text-left">
