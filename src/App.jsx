@@ -45,8 +45,8 @@ const router = createBrowserRouter([
         <Header />
         <AboutPage1 />
         <Skills />
-        <AboutPage2 />
         <Experience/>
+        <AboutPage2 />
         <AboutPage3 />
         <AboutPage4 />
         <Footer />

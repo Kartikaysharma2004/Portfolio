@@ -71,7 +71,7 @@ const Experience = () => {
 
     return (
         <section ref={experienceRef} className="w-full my-16 px-4 py-16">
-            <div className="max-w-6xl mx-auto flex flex-col md:flex-row md:justify-between">
+            <div className="max-w-6xl mx-auto flex flex-col md:flex-row md:justify-between max-sm:gap-8">
 
                 {/* Left Section (Heading) */}
                 <div ref={textRef} className="md:w-1/2">
@@ -83,13 +83,13 @@ const Experience = () => {
                     <p className="text-sm font-medium text-gray-600 pr-28 max-sm:pr-5 mb-4">I’ve partnered with student-tech communities and freelance clients to craft production-ready interfaces that feel fast, modern, and visually refined.</p>
                 </div>
 
-                {/* Right Section (Education Details) */}
-                <div ref={edtextRef} className="md:w-1/2 max-sm:text-sm">
-                    {roles.map((item, index) => (
-                        <div key={item.id}>
-                            <div className="flex justify-between items-center pb-2">
-                                <div className="flex items-start gap-4">
+                {/* Right Section (Experience Details) */}
+                <div  className="md:w-1/2">
+                    <div className="flex flex-col gap-4 font-[Inter-Regular]">
+                        {roles.map((item, index) => (
+                            <div key={item.id}>
 
+                                <div className="flex items-start gap-4">
                                     <div className="w-10 h-10 rounded-xl flex items-center justify-center shrink-0">
                                         <img
                                             src={item.logo}
@@ -97,27 +97,32 @@ const Experience = () => {
                                             className={`rounded-xl `}
                                         />
                                     </div>
-                                    <div className="text-lg font-medium">
-                                        {item.role}
-                                        <a
-                                            href={item.link}
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            className="block text text-[#838C96] text-sm font-[Inter-Regular] max-sm:text-xs hover:underline underline-offset-4"
-                                        >
-                                            @{item.company}
-                                        </a>
+
+                                    <div className="flex justify-between w-full max-sm:flex-col max-sm:gap-1">
+                                        <div>
+                                            <p className="font-medium max-sm:text-sm">{item.role}</p>
+                                            <a
+                                                href={item.link}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="text text-[#838C96] text-sm max-sm:text-xs hover:underline underline-offset-4"
+                                            >
+                                                @{item.company}
+                                            </a>
+                                        </div>
+                                        <h3 className="text-sm max-sm:text-xs max-sm:self-start text-[#838C96] whitespace-nowrap">{item.timeline}</h3>
                                     </div>
                                 </div>
-                                <h3 className="text-sm max-sm:text-xs max-sm:self-start text-[#838C96] whitespace-nowrap font-[Inter-Regular]">{item.timeline}</h3>
+
+                                {/* Divider except last item */}
+                                {index !== roles.length - 1 && (
+                                    <hr className="border border-[#e2e8f0] mt-4 max-sm:mt-3" />
+                                )}
                             </div>
-                            {/* Divider except last item */}
-                            {index !== roles.length - 1 && (
-                                <hr className="border border-[#e2e8f0] my-3" />
-                            )}
-                        </div>
-                    ))}
+                        ))}
+                    </div>
                 </div>
+
 
             </div>
         </section>
