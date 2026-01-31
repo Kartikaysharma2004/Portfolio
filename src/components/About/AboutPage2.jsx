@@ -1,13 +1,7 @@
 import React, { useEffect, useRef } from 'react'
 import gsap from "gsap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-    faStarOfLife,
-    faPencil,
-    faSearch,
-    faCode,
-    faRocket
-} from "@fortawesome/free-solid-svg-icons";
+import { faStarOfLife, faPencil, faSearch, faCode, faRocket } from "@fortawesome/free-solid-svg-icons";
 import ShinyText from '../Home/ShinyText';
 
 const AboutPage2 = () => {
@@ -74,11 +68,7 @@ const AboutPage2 = () => {
                         I have built projects that deliver seamless and engaging digital experiences.
                     </p>
                 </div>
-                <div className='flex gap-6 py-5 px-3 items-center justify-center
-    flex-wrap
-    max-sm:flex-nowrap max-sm:justify-start
-    max-sm:overflow-x-auto
-    max-sm:scroll-smooth'>
+                <div className='flex gap-6 py-5 px-3 items-center justify-center flex-wrap max-sm:flex-nowrap max-sm:justify-start max-sm:overflow-x-auto max-sm:scroll-smooth'>
                     {processes.map((process) => (
                         <div key={process.id} className="container border border-gray-400 w-72 h-52 rounded-2xl p-5 shadow-lg hover:shadow-xl transition ease-in-out duration-300 max-sm:shrink-0">
                             <FontAwesomeIcon icon={process.icon} className='process bg-black text-white rounded-full p-3' />
