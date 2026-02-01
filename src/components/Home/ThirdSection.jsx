@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faInstagram, faDev, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faArrowRightFromBracket } from "@fortawesome/free-solid-svg-icons";
 import { faCircleCheck } from "@fortawesome/free-regular-svg-icons";
 import tsslogo from "/src/images/Logos/tss.jpg"
 import kslogo from "/src/images/Logos/ks.webp"
@@ -125,8 +125,8 @@ const AboutSection = () => {
           </div>
 
           {/* Button */}
-          <a href="https://www.linkedin.com/in/kartikay-sharma2004/" target="_blank"><button className="dark profile-card mt-3 w-full py-2 rounded-xl cursor-pointer font-[Inter-regular] font-medium">
-            Follow on LinkedIn
+          <a href="https://topmate.io/kartikaysharma2004" target="_blank"><button className="dark group profile-card mt-3 w-full py-2 rounded-xl cursor-pointer font-[Inter-regular] font-medium">
+            Book a 1:1 Call <FontAwesomeIcon icon={faArrowRightFromBracket} className="text-sm ml-1 group-hover:ml-2 transition-all duration-300" />
           </button></a>
 
         </div>
