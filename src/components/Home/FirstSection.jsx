@@ -79,11 +79,8 @@ export default function FirstSection() {
                             className="avtar h-full w-full aspect-[3/4] rounded-b-full object-cover transition duration-300 grayscale hover:grayscale-0"
                         />
                         
-
                     </div>
                 </div>
-
-
             </div>
         </section>
     );
