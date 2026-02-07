@@ -25,8 +25,8 @@ const Page1 = () => {
 
   return (
     <>
-      <section ref={aboutRef} className="pb-10 pt-15 flex flex-col justify-center items-center px-4 sm:px-16">
-        <div className="w-[13rem] h-[13rem] top-10 right-0 absolute max-lg:hidden">
+      <section ref={aboutRef} className="pb-10 pt-15 flex flex-col justify-center items-center px-4 sm:px-16 relative">
+        <div className="w-[13rem] h-[13rem] -top-5 right-0 absolute max-lg:hidden pointer-events-none">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 360 300"
@@ -50,7 +50,7 @@ const Page1 = () => {
           {/* Text Section */}
           <div className="w-full space-y-4 text-left max-md:text-start">
 
-            <h1 ref={textRef} className="text-4xl text-balance sm:text-7xl font-semibold py-5">
+            <h1 ref={textRef} className="text-4xl text-balance  sm:text-7xl font-semibold py-5">
               I'm a frontend developer with passion to create <span className="text text-[#30AF5B]">Interactive designs</span>
             </h1>
             <div className='text-right'>
@@ -67,7 +67,7 @@ const Page1 = () => {
             </div>
           </div>
         </div>
-        <div className="w-[13rem] h-[13rem] bottom-0 left-0 absolute max-lg:hidden">
+        <div className="w-[13rem] h-[13rem] -bottom-5 left-0 absolute max-lg:hidden pointer-events-none">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 300" className="w-full h-full">
             <path d="M65,50 L145,50 C235,50 255,120 253,150 C255,180 230,240 165,250 L65,250 Z" fill="currentColor" className="about-face"></path>
             <g className="eye">

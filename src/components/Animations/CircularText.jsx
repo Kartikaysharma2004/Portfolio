@@ -97,7 +97,7 @@ const CircularText = ({ text, spinDuration = 20, onHover = 'speedUp', className 
         return (
           <span
             key={i}
-            className="absolute inline-block inset-0 p-1 text-sm transition-all duration-500 ease-[cubic-bezier(0,0,0,1)]"
+            className="absolute inline-block inset-0 p-1 text-xs transition-all duration-500 ease-[cubic-bezier(0,0,0,1)]"
             style={{ transform, WebkitTransform: transform }}
           >
             {letter}
