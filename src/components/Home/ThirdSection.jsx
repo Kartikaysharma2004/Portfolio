@@ -10,6 +10,7 @@ import reactLogo from "/src/images/Logos/React.js.svg";
 import tailwindLogo from "/src/images/Logos/TailwindCSS.svg";
 import ShinyText from "./ShinyText";
 import image from "/src/images/Kartikay.jpg"
+import CountUp from "../Animations/CountUp";
 
 
 const AboutSection = () => {
@@ -85,15 +86,39 @@ const AboutSection = () => {
           {/* Stats */}
           <div className="mt-6 flex justify-between">
             <div>
-              <p className="text-lg font-semibold">20+</p>
+              <p className="text-lg font-semibold"><CountUp
+                from={0}
+                to={20}
+                separator=","
+                direction="up"
+                duration={1}
+                className="count-up-text"
+                startCounting={false}
+              />+</p>
               <span className="text-xs text text-[#838C96]">Projects</span>
             </div>
             <div>
-              <p className="text-lg font-semibold">400+</p>
+              <p className="text-lg font-semibold"><CountUp
+                from={0}
+                to={400}
+                separator=","
+                direction="up"
+                duration={1}
+                className="count-up-text"
+                startCounting={false}
+              />+</p>
               <span className="text-xs text text-[#838C96]">Contributions</span>
             </div>
             <div>
-              <p className="text-lg font-semibold">1.5+</p>
+              <p className="text-lg font-semibold"><CountUp
+                from={0}
+                to={1.5}
+                separator=","
+                direction="up"
+                duration={1}
+                className="count-up-text"
+                startCounting={false}
+              />+</p>
               <span className="text-xs text text-[#838C96]">Years Exp</span>
             </div>
           </div>
