@@ -59,11 +59,11 @@ const AboutSection = () => {
 
 
   return (
-    <section className="flex items-center justify-center px-4 py-20 max-sm:pb-10">
+    <section className="flex items-center justify-center px-4 md:px-12 py-20 max-sm:pb-10">
       <div className="max-w-6xl w-full grid grid-cols-1 lg:grid-cols-3 gap-8">
 
         {/* LEFT PROFILE CARD */}
-        <div className=" about-container bg-[#eef0ff] text-center rounded-3xl p-10 ">
+        <div className="about-container bg-[#eef0ff] text-center rounded-3xl p-10 ">
 
           {/* Avatar */}
           <div className="flex justify-center">

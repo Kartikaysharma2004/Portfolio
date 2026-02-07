@@ -20,7 +20,7 @@ export default function FirstSection() {
     }, []);
 
     return (
-        <section ref={homeRef} className="py-10 flex flex-col justify-center items-center px-4 sm:px-16">
+        <section ref={homeRef} className=" flex flex-col justify-center items-center py-10 px-4 md:px-12">
 
             <div className="relative flex flex-col lg:flex-row items-center justify-between w-full gap-8">
                 {/* Text Section */}
