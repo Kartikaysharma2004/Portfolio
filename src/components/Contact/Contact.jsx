@@ -4,7 +4,7 @@ import gsap from "gsap";
 import {
   faGithub,
   faLinkedinIn,
-  faInstagram,
+  faTelegram,
   faDev,
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
@@ -88,10 +88,10 @@ const Contact = () => {
                   <FontAwesomeIcon icon={faGithub} className="icons" />
                 </a>
                 <a
-                  href="#"
+                  href="https://t.me/kartikay2004"
                   className="text-gray-700 hover:text-black transition"
                 >
-                  <FontAwesomeIcon icon={faInstagram} className="icons" />
+                  <FontAwesomeIcon icon={faTelegram} className="icons" />
                 </a>
                 <a
                   href="mailto:kartikaysharmaa2004@gmail.com"

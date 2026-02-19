@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faInstagram, faDev, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faTelegram, faDev, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faArrowRightFromBracket } from "@fortawesome/free-solid-svg-icons";
 import { faCircleCheck } from "@fortawesome/free-regular-svg-icons";
 import tsslogo from "/src/images/Logos/tss.jpg"
@@ -131,8 +131,8 @@ const AboutSection = () => {
             <a href="https://github.com/Kartikaysharma2004/" className="text-black transition text-2xl">
               <FontAwesomeIcon icon={faGithub} className='icons text-xl' />
             </a>
-            <a href="#" className="text-black transition text-2xl">
-              <FontAwesomeIcon icon={faInstagram} className='icons text-xl' />
+            <a href="https://t.me/kartikay2004" className="text-black transition text-2xl">
+              <FontAwesomeIcon icon={faTelegram} className='icons text-xl' />
             </a>
             <a href="mailto:kartikaysharmaa2004@gmail.com" className="text-black transition text-2xl">
               <FontAwesomeIcon icon={faEnvelope} className='icons text-xl' />
@@ -188,7 +188,7 @@ const AboutSection = () => {
                       <img
                         src={item.logo}
                         alt={item.company}
-                        className={`rounded-xl `} 
+                        className={`rounded-xl `}
                         loading="lazy"
                       />
                     </div>
@@ -214,7 +214,7 @@ const AboutSection = () => {
                     <hr className="border border-[#e2e8f0] mt-4 max-sm:mt-3" />
                   )}
                 </div>
-                ))}
+              ))}
             </div>
 
 

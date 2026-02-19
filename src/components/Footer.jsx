@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faInstagram, faDev, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faDev, faLinkedinIn, faTelegram } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { NavLink } from 'react-router-dom';
 import gsap from "gsap";
@@ -33,28 +33,28 @@ const Footer = () => {
         toggleActions: "play none none none",
       }
     });
-    
+
     tl.fromTo(
       bottomRef.current,
       { opacity: 0, clipPath: "inset(0% 100% 0% 0%)" },
       { opacity: 1, clipPath: "inset(0% 0% 0% 0%)", duration: 1.2, ease: "power3.out" }
     )
-    .fromTo(
-      iconsRef.current,
-      { opacity: 0, clipPath: "inset(0% 100% 0% 0%)" },
-      { opacity: 1, clipPath: "inset(0% 0% 0% 0%)", duration: 1.2, ease: "power3.out" },
-      "-=0.6"
-    );    
+      .fromTo(
+        iconsRef.current,
+        { opacity: 0, clipPath: "inset(0% 100% 0% 0%)" },
+        { opacity: 1, clipPath: "inset(0% 0% 0% 0%)", duration: 1.2, ease: "power3.out" },
+        "-=0.6"
+      );
 
     footerAnimation
-      .fromTo(textRef.current, 
-        { opacity: 0, clipPath: "inset(0% 100% 0% 0%)" }, 
+      .fromTo(textRef.current,
+        { opacity: 0, clipPath: "inset(0% 100% 0% 0%)" },
         { opacity: 1, clipPath: "inset(0% 0% 0% 0%)", duration: 1.2, ease: "power3.out" })
-        .fromTo(badgeRef.current, { opacity: 0, clipPath: "inset(0% 100% 0% 0%)" }, 
-          { opacity: 1, clipPath: "inset(0% 0% 0% 0%)", duration: 1, ease: "power3.out" })
-        .fromTo(buttonRef.current, 
-          { opacity: 0, clipPath: "inset(0% 100% 0% 0%)" }, 
-        { opacity: 1, clipPath: "inset(0% 0% 0% 0%)", duration: 1, ease: "power3.out" })   
+      .fromTo(badgeRef.current, { opacity: 0, clipPath: "inset(0% 100% 0% 0%)" },
+        { opacity: 1, clipPath: "inset(0% 0% 0% 0%)", duration: 1, ease: "power3.out" })
+      .fromTo(buttonRef.current,
+        { opacity: 0, clipPath: "inset(0% 100% 0% 0%)" },
+        { opacity: 1, clipPath: "inset(0% 0% 0% 0%)", duration: 1, ease: "power3.out" })
   }, []);
 
   return (
@@ -67,7 +67,7 @@ const Footer = () => {
               <span className="w-2 h-2 bg-green-500 rounded-full animate-ping"></span>
               <span className="absolute w-2 h-2 bg-green-500 rounded-full"></span>
             </div>
-            <ShinyText text="Available for work" speed={2.8} color='#30AF5B' shineColor='#b5ff6d' className='text-sm max-sm:text-xs'/>
+            <ShinyText text="Available for work" speed={2.8} color='#30AF5B' shineColor='#b5ff6d' className='text-sm max-sm:text-xs' />
           </p>
           <h2 ref={textRef} className="text-2xl sm:text-5xl font-medium text-gray-900 text-balance">
             Let’s build something<br />amazing together.
@@ -94,14 +94,14 @@ const Footer = () => {
             <a href="https://github.com/Kartikaysharma2004/" className="text-black transition text-2xl">
               <FontAwesomeIcon icon={faGithub} className='icons text-xl' />
             </a>
-            <a href="#" className="text-black transition text-2xl">
-              <FontAwesomeIcon icon={faInstagram} className='icons text-xl' />
+            <a href="https://t.me/kartikay2004" className="text-black transition text-2xl">
+              <FontAwesomeIcon icon={faTelegram} className='icons text-xl' />
             </a>
             <a href="mailto:kartikaysharmaa2004@gmail.com" className="text-black transition text-2xl">
               <FontAwesomeIcon icon={faEnvelope} className='icons text-xl' />
             </a>
             <a href="https://dev.to/kartikaysharma2004" className="text-black transition text-2xl">
-            <FontAwesomeIcon icon={faDev} className= 'icons text-xl' />
+              <FontAwesomeIcon icon={faDev} className='icons text-xl' />
             </a>
           </div>
         </div>
