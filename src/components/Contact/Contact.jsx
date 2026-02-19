@@ -104,7 +104,7 @@ const Contact = () => {
                 </a>
               </div>
               <iframe
-                className="mt-6 w-full h-60 rounded-lg "
+                className="mt-6 w-full h-60 rounded-lg"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27280.059948763257!2d74.83628671902734!3d31.275887936209458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391985f1e041ab6b%3A0xc9948861a6ede094!2sPatti%2C%20Punjab!5e0!3m2!1sen!2sin!4v1741273165675!5m2!1sen!2sin"
                 allowFullScreen=""
                 loading="lazy"

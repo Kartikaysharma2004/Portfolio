@@ -168,7 +168,7 @@ const AboutSection = () => {
               <ShinyText text={"Open to work"} speed={2.8} color='#30AF5B' shineColor='#b5ff6d' />
             </div>
 
-            <p className="text-gray-600 leading-relaxed">
+            <p className="description leading-relaxed">
               Frontend Developer passionate about crafting modern, responsive
               and engaging web experiences. I focus on clean UI, smooth
               animations, and performance-driven design.
@@ -234,7 +234,7 @@ const AboutSection = () => {
                       className="w-5 h-5"
                       loading="lazy"
                     />
-                    <span>{skill.skill}</span>
+                    <span className="description">{skill.skill}</span>
                   </div>
                 ))}
               </div>
