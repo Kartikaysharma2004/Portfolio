@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import './index.css'
 import Header from './components/Header'
 import FirstSection from './components/Home/FirstSection'
@@ -18,6 +18,7 @@ import AboutPage3 from './components/About/AboutPage3'
 import AboutPage4 from './components/About/AboutPage4'
 import ScrollToTop from './components/ScrollToTop'
 import NotFound from './components/NotFound'
+import Preloader from './components/Preloader'
 
 
 const router = createBrowserRouter([
@@ -45,7 +46,7 @@ const router = createBrowserRouter([
         <Header />
         <AboutPage1 />
         <Skills />
-        <Experience/>
+        <Experience />
         <AboutPage2 />
         <AboutPage3 />
         <AboutPage4 />
@@ -85,17 +86,33 @@ const router = createBrowserRouter([
 ])
 
 const App = () => {
+  const [loading, setLoading] = useState(true);
+  const [showPreloader, setShowPreloader] = useState(true);
 
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false); // timeline finished
+    }, 5500);
+
+    return () => clearTimeout(timer);
+  }, []);
 
   useEffect(() => {
     const lenis = new Lenis({
       autoRaf: true,
       duration: 1.5,
     });
-  }, [])
+  }, []);
 
+  return (
+    <>
+      {showPreloader && (
+        <Preloader loading={loading} onFinish={() => setShowPreloader(false)} />
+      )}
 
-  return <RouterProvider router={router} />;
-}
+      <RouterProvider router={router} />
+    </>
+  );
+};
 
-export default App
+export default App;
