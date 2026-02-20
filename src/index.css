@@ -8,11 +8,11 @@
 
 @font-face {
   font-family: "Inter-Light";
-  src: url("./fonts/42cbe77eee9e7152-s.p.ttf") format("woff2");
+  src: url("./fonts/42cbe77eee9e7152-s.p.woff2") format("woff2");
 }
 @font-face {
   font-family: "Inter-Regular";
-  src: url("./fonts/867bce6efedfde96-s.p.ttf") format("woff2");
+  src: url("./fonts/867bce6efedfde96-s.p.woff2") format("woff2");
 }
 body {
   background-color: #f7f8fa;
