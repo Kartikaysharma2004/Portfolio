@@ -18,8 +18,8 @@ const Preloader = ({ loading, onFinish }) => {
     }, [loading, onFinish]);
     
     return (
-        <div ref={preloaderRef} className="fixed inset-0 bg-black flex items-end pr-10 justify-end z-[9999]">
-            <h1 className="text-8xl text-white font-semibold tracking-wider">
+        <div ref={preloaderRef} className="fixed inset-0 bg-black flex items-end pr-5 max-md:pr-0 justify-end z-[9999] font-[Inter-Regular]">
+            <h1 className="text-8xl max-md:text-6xl text-white font-semibold tracking-wider bottom-1 relative">
                 <CountUp
                     from={0}
                     to={100}
