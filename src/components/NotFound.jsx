@@ -7,17 +7,7 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 export default function NotFound() {
     return (
         <div
-            className="
-        relative
-        min-h-[100svh]
-        bg-[#f7f8fa]
-        flex
-        items-center
-        justify-center
-        px-6
-        overflow-hidden
-      "
-        >
+            className="relative min-h-[100svh] bg-[#f7f8fa] flex items-center justify-center px-6 overflow-hidden">
             <motion.div
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -52,25 +42,8 @@ export default function NotFound() {
 
                 <Link
                     to="/"
-                    className="
-            mt-10
-            inline-flex
-            items-center
-            gap-2
-            px-6
-            py-3
-            border
-            border-[#202025]
-            rounded-full
-            text-sm
-            tracking-wide
-            hover:bg-black
-            hover:text-white
-            transition-all
-            duration-300
-          "
-                >
-                    Go back home <FontAwesomeIcon icon={faArrowRight} />
+                    className="group mt-10 inline-flex items-center gap-2 px-6 py-3 border border-[#202025] rounded-full text-sm tracking-wide hover:bg-black hover:text-white transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                    Go back home <FontAwesomeIcon icon={faArrowRight} className="text-sm group-hover:ml-1 transition-all duration-300" />
                 </Link>
             </motion.div>
         </div>
