@@ -19,6 +19,7 @@ import AboutPage4 from './components/About/AboutPage4'
 import ScrollToTop from './components/ScrollToTop'
 import NotFound from './components/NotFound'
 import Preloader from './components/Preloader'
+import PageTitle from './components/PageTitle'
 
 
 const router = createBrowserRouter([
@@ -26,6 +27,7 @@ const router = createBrowserRouter([
     path: "/",
     element: (
       <>
+      <PageTitle title="Kartikay Sharma — Frontend Developer"/>
         <ScrollToTop />
         <Header />
         <FirstSection />
@@ -42,6 +44,7 @@ const router = createBrowserRouter([
     path: "/about",
     element: (
       <>
+      <PageTitle title="About | Kartikay Sharma"/>
         <ScrollToTop />
         <Header />
         <AboutPage1 />
@@ -58,6 +61,7 @@ const router = createBrowserRouter([
     path: "/projects",
     element: (
       <>
+      <PageTitle title="Projects | Kartikay Sharma"/>
         <ScrollToTop />
         <Header />
         <Page1 />
@@ -69,6 +73,7 @@ const router = createBrowserRouter([
     path: "/contact",
     element: (
       <>
+      <PageTitle title="Contact | Kartikay Sharma"/>
         <ScrollToTop />
         <Header />
         <Contact />
