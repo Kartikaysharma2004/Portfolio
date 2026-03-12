@@ -40,6 +40,12 @@ export default function FirstSection() {
                             <span className="underline absolute top-10 left-0 bottom-0 w-0 h-[2px] bg-black transition-all duration-300 group-hover:w-full"></span>
                         </a>
 
+                        <a href="https://www.instagram.com/codebykartik" className="relative py-3 bg-transparent group">
+                            Instagram
+                            <FontAwesomeIcon icon={faArrowRight} className="mx-2 w-4 h-4 -rotate-45" />
+                            <span className="underline absolute top-10 left-0 bottom-0 w-0 h-[2px] bg-black transition-all duration-300 group-hover:w-full"></span>
+                        </a>
+
                         <a href="mailto:kartikaysharmaa2004@gmail.com" className="relative py-3 bg-transparent group">
                             Gmail
                             <FontAwesomeIcon icon={faArrowRight} className="mx-2 w-4 h-4 -rotate-45" />
