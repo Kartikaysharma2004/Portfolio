@@ -4,6 +4,7 @@ import React from 'react'
 import ShinyText from "./ShinyText";
 import image from "/src/images/Kartikay.jpg"
 import { HandIcon } from "../ui/hand";
+import { Link } from "react-router-dom";
 
 
 export default function FirstSection() {
@@ -27,7 +28,7 @@ export default function FirstSection() {
                     </p>
                     <hr className="border-[#191920] w-full" />
                     {/* Social Icons */}
-                    <div className="social-links font-[Inter-Regular] flex gap-4 mt-6 font-normal uppercase">
+                    <div className="social-links font-[Inter-Regular] flex gap-4 mt-6 font-normal uppercase max-sm:hidden">
                         <a href="https://github.com/Kartikaysharma2004" className="relative py-3 bg-transparent group">
                             GitHub
                             <FontAwesomeIcon icon={faArrowRight} className="mx-2 w-4 h-4 -rotate-45" />
@@ -40,7 +41,7 @@ export default function FirstSection() {
                             <span className="underline absolute top-10 left-0 bottom-0 w-0 h-[2px] bg-black transition-all duration-300 group-hover:w-full"></span>
                         </a>
 
-                        <a href="https://www.instagram.com/codebykartik" className="relative py-3 bg-transparent group">
+                        <a href="https://www.instagram.com/codebykartik" className="relative py-3 bg-transparent group max-sm:hidden">
                             Instagram
                             <FontAwesomeIcon icon={faArrowRight} className="mx-2 w-4 h-4 -rotate-45" />
                             <span className="underline absolute top-10 left-0 bottom-0 w-0 h-[2px] bg-black transition-all duration-300 group-hover:w-full"></span>
@@ -51,6 +52,13 @@ export default function FirstSection() {
                             <FontAwesomeIcon icon={faArrowRight} className="mx-2 w-4 h-4 -rotate-45" />
                             <span className="underline absolute top-10 left-0 bottom-0 w-0 h-[2px] bg-black transition-all duration-300 group-hover:w-full"></span>
                         </a>
+                    </div>
+                    <div className="sm:hidden">
+                        <Link to={"/about"}>
+                            <button className="resume-btn border-1 p-3 w-40 border-black rounded-full cursor-pointer hover:bg-black hover:text-white transition delay-150 duration-300 ease-in-out text-sm">
+                                Know me better
+                            </button>
+                        </Link>
                     </div>
                 </div>
 
