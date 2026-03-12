@@ -26,7 +26,7 @@ export default function FirstSection() {
                         Shaping the future of web interactions with clean, efficient, and engaging designs{" "}
                         <ShinyText text="frontend" speed={2.8} color='#30AF5B' shineColor='#b5ff6d' /> development.
                     </p>
-                    <hr className="border-[#191920] w-full" />
+                    <hr className=" border-[#e2e8f0] border w-full" />
                     {/* Social Icons */}
                     <div className="social-links font-[Inter-Regular] flex gap-4 mt-6 font-normal uppercase max-sm:hidden">
                         <a href="https://github.com/Kartikaysharma2004" className="relative py-3 bg-transparent group">
