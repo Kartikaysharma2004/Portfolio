@@ -61,7 +61,7 @@ const Education = () => {
 
                 {/* Left Section (Heading) */}
                 <div ref={textRef} className="md:w-1/2 pb-5">
-                    <h2 className="text-lg mb-2 text-[#30AF5B]"><FontAwesomeIcon icon={faStarOfLife} className="text-lg mr-2" /><ShinyText text="Achievements" speed={2.8} color='#30AF5B' shineColor='#b5ff6d' />
+                    <h2 className="text-lg mb-2 flex items-center gap-2 text-[#30AF5B]"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-sparkle" aria-hidden="true"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"></path></svg><ShinyText text="Achievements" speed={2.8} color='#30AF5B' shineColor='#b5ff6d' />
                     </h2>
                     <h3 className="text-4xl md:text-5xl mb-4 font-medium text-[var(--white)]">
                         Awards & <br />Recognition
