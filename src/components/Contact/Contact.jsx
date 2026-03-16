@@ -6,6 +6,7 @@ import {
   faLinkedinIn,
   faTelegram,
   faDev,
+  faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
@@ -86,6 +87,12 @@ const Contact = () => {
                   className="text-gray-700 hover:text-black transition"
                 >
                   <FontAwesomeIcon icon={faGithub} className="icons" />
+                </a>
+                <a
+                  href="https://www.instagram.com/codebykartik"
+                  className="text-gray-700 hover:text-black transition"
+                >
+                  <FontAwesomeIcon icon={faInstagram} className="icons" />
                 </a>
                 <a
                   href="https://t.me/kartikay2004"
