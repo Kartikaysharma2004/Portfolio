@@ -10,7 +10,7 @@ const Header = () => {
     useEffect(() => {
 
         const toggletheme = document.querySelector(".togglebtn")
-        
+
 
         toggletheme.addEventListener("click", () => {
             if (currmode === "light") {
@@ -37,7 +37,7 @@ const Header = () => {
                 duration: 1, // Animation duration in seconds
                 ease: "power2.out",
             });
-            
+
 
             return () => ctx.revert();
         });
@@ -65,51 +65,78 @@ const Header = () => {
                 </NavLink>
                 <ul className="max-md:hidden gap-6 text-sm flex">
                     <li className="group relative">
-                        <NavLink className="active-link" to="/">
-                            <span className="relative inline-flex overflow-hidden">
-                                <div className="nav-items translate-y-0 skew-y-0 transform-gpu transition-transform duration-500 group-hover:-translate-y-[110%] group-hover:skew-y-12">
-                                    Home
-                                </div>
-                                <div className="absolute translate-y-[110%] skew-y-12 transform-gpu text-text-primary transition-transform duration-500 group-hover:translate-y-0 group-hover:skew-y-0">
-                                    Home
-                                </div>
-                            </span>
+                        <NavLink to="/">
+                            {({ isActive }) => (
+                                <span className="relative inline-flex overflow-hidden items-center">
+
+                                    <span className={`dot mr-2 rounded-full border h-1.5 w-1.5 border-[#30AF5B] bg-[#30AF5B] ${isActive ? "block" : "hidden"}`} />
+
+                                    <span className="relative inline-flex overflow-hidden">
+                                        <div className="nav-items">
+                                            Home
+                                        </div>
+
+                                        <div className="nav-overlay">
+                                            Home
+                                        </div>
+                                    </span>
+
+                                </span>
+                            )}
                         </NavLink>
                     </li>
                     <li className="group relative">
                         <NavLink to="/about">
-                            <span className="relative inline-flex overflow-hidden">
-                                <div className="nav-items translate-y-0 skew-y-0 transform-gpu transition-transform duration-500 group-hover:-translate-y-[110%] group-hover:skew-y-12">
-                                    About
-                                </div>
-                                <div className="absolute translate-y-[110%] skew-y-12 transform-gpu text-text-primary transition-transform duration-500 group-hover:translate-y-0 group-hover:skew-y-0">
-                                    About
-                                </div>
-                            </span>
+                            {({ isActive }) => (
+                                <span className="relative inline-flex overflow-hidden items-center">
+
+                                    <span className={`dot mr-2 rounded-full border h-1.5 w-1.5 border-[#30AF5B] bg-[#30AF5B] ${isActive ? "block" : "hidden"}`} />
+                                    <span className="relative inline-flex overflow-hidden">
+                                        <div className="nav-items">
+                                            About
+                                        </div>
+                                        <div className="nav-overlay">
+                                            About
+                                        </div>
+                                    </span>
+                                </span>
+                            )}
                         </NavLink>
                     </li>
                     <li className="group relative">
                         <NavLink to={"/projects"}>
-                            <span className="relative inline-flex overflow-hidden">
-                                <div className="nav-items translate-y-0 skew-y-0 transform-gpu transition-transform duration-500 group-hover:-translate-y-[110%] group-hover:skew-y-12">
-                                    Projects
-                                </div>
-                                <div className="absolute translate-y-[110%] skew-y-12 transform-gpu text-text-primary transition-transform duration-500 group-hover:translate-y-0 group-hover:skew-y-0">
-                                    Projects
-                                </div>
-                            </span>
+                            {({ isActive }) => (
+                                <span className="relative inline-flex overflow-hidden items-center">
+
+                                    <span className={`dot mr-2 rounded-full border h-1.5 w-1.5 border-[#30AF5B] bg-[#30AF5B] ${isActive ? "block" : "hidden"}`} />
+                                    <span className="relative inline-flex overflow-hidden">
+                                        <div className="nav-items">
+                                            Projects
+                                        </div>
+                                        <div className="nav-overlay">
+                                            Projects
+                                        </div>
+                                    </span>
+                                </span>
+                            )}
                         </NavLink>
                     </li>
                     <li className="group relative">
                         <NavLink to="/contact">
-                            <span className="relative inline-flex overflow-hidden">
-                                <div className="nav-items translate-y-0 skew-y-0 transform-gpu transition-transform duration-500 group-hover:-translate-y-[110%] group-hover:skew-y-12">
-                                    Contact
-                                </div>
-                                <div className="absolute translate-y-[110%] skew-y-12 transform-gpu text-text-primary transition-transform duration-500 group-hover:translate-y-0 group-hover:skew-y-0">
-                                    Contact
-                                </div>
-                            </span>
+                            {({ isActive }) => (
+                                <span className="relative inline-flex overflow-hidden items-center">
+
+                                    <span className={`dot mr-2 rounded-full border h-1.5 w-1.5 border-[#30AF5B] bg-[#30AF5B] ${isActive ? "block" : "hidden"}`} />
+                                    <span className="relative inline-flex overflow-hidden">
+                                        <div className="nav-items">
+                                            Contact
+                                        </div>
+                                        <div className="nav-overlay">
+                                            Contact
+                                        </div>
+                                    </span>
+                                </span>
+                            )}
                         </NavLink>
                     </li>
                 </ul>
@@ -117,7 +144,7 @@ const Header = () => {
                     <button className="togglebtn inline-flex cursor-pointer bg-white items-center justify-center whitespace-nowrap text-sm font-semibold ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-highlight-primary focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground h-11 w-11 relative rounded-full border border-bg-700 bg-backdrop text-text-primary shadow backdrop-blur-md transition-all active:scale-90 sm:h-10 sm:w-10 border-none sm:bg-transparent sm:shadow-none sm:backdrop-blur-none">
                         <div
                             className="svgsun absolute inset-0 flex items-center justify-center"
-                            // style={{ opacity: 1, willChange: "auto", transform: "none" }}
+                        // style={{ opacity: 1, willChange: "auto", transform: "none" }}
                         >
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -144,10 +171,10 @@ const Header = () => {
                         </div>
                         <div
                             className="svgmoon absolute inset-0 flex items-center justify-center"
-                            // style={{
-                            //     opacity: 0,
-                            //     willChange: "auto"
-                            // }}
+                        // style={{
+                        //     opacity: 0,
+                        //     willChange: "auto"
+                        // }}
                         >
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
