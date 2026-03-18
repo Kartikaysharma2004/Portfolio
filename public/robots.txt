@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /fonts/
+Disallow: /assets/
 
 Sitemap: https://kartikaysharma.vercel.app/sitemap.xml
