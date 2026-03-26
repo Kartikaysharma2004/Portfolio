@@ -14,6 +14,7 @@ import VscodeLogo from "/src/images/Logos/vscode.ico"
 import chromeLogo from "/src/images/Logos/chrome.png"
 import LenisLogo from "/src/images/Logos/lenis.ico"
 import NextjsLogo from "/src/images/Logos/next-js.webp"
+import FramerLogo from "/src/images/Logos/FramerMotion.svg"
 
 export default function Skills() {
 
@@ -71,32 +72,37 @@ export default function Skills() {
         },
         {
             id: 11,
+            name: "Framer Motion",
+            image: FramerLogo,
+        },
+        {
+            id: 12,
             name: "Lenis",
             image: LenisLogo,
         },
         
         {
-            id: 12,
+            id: 13,
             name: "Git",
             image: gitLogo,
         },
         {
-            id: 13,
+            id: 14,
             name: "VS Code",
             image: VscodeLogo,
         },
         {
-            id: 14,
+            id: 15,
             name: "Netlify",
             image: netlifyLogo,
         },
         {
-            id: 15,
+            id: 16,
             name: "Vercel",
             image: vercelLogo,
         },
         {
-            id: 16,
+            id: 17,
             name: "Chrome DevTools",
             image: chromeLogo,
         },
