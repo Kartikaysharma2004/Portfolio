@@ -30,7 +30,7 @@ const AboutSection = () => {
       company: "Self Employed",
       link: "https://www.linkedin.com/in/kartikay-sharma2004/",
       logo: kslogo,
-      timeline: "August 2022 — Present"
+      timeline: "April 2025 — Present"
     },
   ];
 

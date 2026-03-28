@@ -20,7 +20,8 @@ const Experience = () => {
     const roles = [
         {
             id: 1,
-            role: "Frontend Developer",
+            role: "Frontend Developer
+            , Co-Head (Technical Team)",
             company: "Technical Students' Society",
             link: "https://www.linkedin.com/company/technical-students-societies/",
             logo: tsslogo,
@@ -32,7 +33,7 @@ const Experience = () => {
             company: "Self Employed",
             link: "https://www.linkedin.com/in/kartikay-sharma2004/",
             logo: kslogo,
-            timeline: "August 2022 — Present"
+            timeline: "April 2025 — Present"
         },
     ];
 
