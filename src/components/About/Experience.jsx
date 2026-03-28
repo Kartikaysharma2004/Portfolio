@@ -19,22 +19,21 @@ const Experience = () => {
 
     const roles = [
         {
-            id: 1,
-            role: "Frontend Developer
-            , Co-Head (Technical Team)",
-            company: "Technical Students' Society",
-            link: "https://www.linkedin.com/company/technical-students-societies/",
-            logo: tsslogo,
-            timeline: "December 2025 — Present"
-        },
-        {
-            id: 2,
-            role: "Freelancer",
-            company: "Self Employed",
-            link: "https://www.linkedin.com/in/kartikay-sharma2004/",
-            logo: kslogo,
-            timeline: "April 2025 — Present"
-        },
+              id: 1,
+              role: "Frontend Developer",
+              company: "Technical Students' Society",
+              link: "https://www.linkedin.com/company/technical-students-societies/",
+              logo: tsslogo,
+              timeline: "December 2025 — Present"
+            },
+            {
+              id: 2,
+              role: "Freelancer",
+              company: "Self Employed",
+              link: "https://www.linkedin.com/in/kartikay-sharma2004/",
+              logo: kslogo,
+              timeline: "April 2025 — Present"
+            },
     ];
 
     useEffect(() => {
