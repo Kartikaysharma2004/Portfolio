@@ -20,8 +20,8 @@ export default function FifthSection() {
                             
                 {/* Right Side Button */}
                             <NavLink to={"/contact"}>
-                                <button className="contact-btn border p-3 text-sm border-black rounded-3xl cursor-pointer hover:bg-black hover:text-white transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 mb-10">
-                                    Let's Discuss <FontAwesomeIcon icon={faArrowRight} className='mx-2 w-4 h-4 -rotate-45' />
+                                <button className="contact-btn border p-3 text-sm font-[Inter-Regular] font-medium border-black rounded-full cursor-pointer hover:bg-black hover:text-white transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 mb-10 w-38">
+                                    Let's Discuss <FontAwesomeIcon icon={faArrowRight} className='w-4 h-4 -rotate-45' />
                                 </button>
                             </NavLink>
                         </div>

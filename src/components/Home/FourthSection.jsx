@@ -44,8 +44,8 @@ export default function FeaturedWork() {
                         universal design to create impactful digital experiences.
                     </p>
                     <NavLink to={"/contact"}>
-                        <button className="contact-btn border p-3 border-black rounded-3xl cursor-pointer hover:bg-black hover:text-white transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 mb-10">
-                            Let's Discuss <FontAwesomeIcon icon={faArrowRight} className='mx-2 w-4 h-4 -rotate-45' />
+                        <button className="contact-btn border p-3 border-black cursor-pointer hover:bg-black hover:text-white transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 mb-10 font-[Inter-Regular] font-medium rounded-full text-sm w-38">
+                            Let's Discuss <FontAwesomeIcon icon={faArrowRight} className='w-4 h-4 -rotate-45' />
                         </button>
                     </NavLink>
                 </div>
