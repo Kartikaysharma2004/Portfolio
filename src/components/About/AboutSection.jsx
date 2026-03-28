@@ -60,7 +60,7 @@ const Page1 = () => {
               </p>
 
               <a href="/Documents/Resume.pdf" download={"Kartikay Sharma's Resume"}>
-                <button className="resume-btn border-1 p-3 w-36 border-black rounded-3xl cursor-pointer hover:bg-black hover:text-white transition delay-150 duration-300 ease-in-out ">
+                <button className="resume-btn border-1 p-3 w-38 border-black rounded-4xl text-[15px] cursor-pointer hover:bg-black hover:text-white transition delay-150 duration-300 ease-in-out font-[Inter-Regular] font-medium">
                   My Resume
                 </button>
               </a>

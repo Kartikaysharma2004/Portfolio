@@ -55,7 +55,7 @@ export default function FirstSection() {
                     </div>
                     <div className="sm:hidden">
                         <Link to={"/about"}>
-                            <button className="resume-btn border-1 p-3 w-40 border-black rounded-full cursor-pointer hover:bg-black hover:text-white transition delay-150 duration-300 ease-in-out text-sm">
+                            <button className="resume-btn border-1 p-3 w-40 font-[Inter-Regular] font-medium border-black rounded-full cursor-pointer hover:bg-black hover:text-white transition delay-150 duration-300 ease-in-out text-sm">
                                 Know me better
                             </button>
                         </Link>
